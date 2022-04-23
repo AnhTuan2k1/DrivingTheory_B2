@@ -28,6 +28,8 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   bottom_navy_bar: ^6.0.0
+  json_annotation: ^4.4.0
+  json_serializable: ^6.1.6
   flutter:
     sdk: flutter
 
@@ -37,6 +39,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
+  build_runner: ^2.1.10
   flutter_test:
     sdk: flutter
 
@@ -59,7 +62,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/600questions.json
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
