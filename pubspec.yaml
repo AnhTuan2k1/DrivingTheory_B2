@@ -30,6 +30,9 @@ dependencies:
   bottom_navy_bar: ^6.0.0
   json_annotation: ^4.4.0
   json_serializable: ^6.1.6
+  flutter_bloc: ^8.0.1
+  bloc: ^8.0.3
+  equatable: ^2.0.3
   flutter:
     sdk: flutter
 

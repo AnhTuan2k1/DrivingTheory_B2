@@ -4,10 +4,10 @@ import 'package:driving_theory_b2/model/question.dart';
 
 class ExamQuestions{
   List<Question> questions;
-  double mark;
+  double mark = 0.0;
   bool submited = false;
 
-  ExamQuestions(this.questions, this.mark, this.submited);
+  ExamQuestions(this.questions);
 
   double makeMark(){
     int correctAnswer = 0;
