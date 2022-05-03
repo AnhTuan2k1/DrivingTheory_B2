@@ -1,8 +1,9 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
-import 'package:driving_theory_b2/UI/exam/exam_screen.dart';
-import 'package:driving_theory_b2/UI/revision_screen.dart';
-import 'package:driving_theory_b2/UI/theory_screen.dart';
+import 'package:driving_theory_b2/UI/exam_screens/exam_screen.dart';
+import 'package:driving_theory_b2/UI/theory_screens/theory_screen.dart';
 import 'package:flutter/material.dart';
+
+import 'UI/revision_screens/revision_screen.dart';
 
 void main() {
   runApp(const MyApp());

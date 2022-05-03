@@ -9,20 +9,20 @@ part 'timer_state.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final Ticker _ticker;
-  static const int _duration = 5;
+  static const int duration = 10;
 
   StreamSubscription<int>? _tickerSubscription;
 
   TimerBloc({required Ticker ticker})
       : _ticker = ticker,
-        super(TimerRunInProgress(_duration)) {
+        super(TimerRunInProgress(duration)) {
     on<TimerStarted>(_onStarted);
     on<TimerPaused>(_onPaused);
     on<TimerResumed>(_onResumed);
     on<TimerReset>(_onReset);
     on<TimerTicked>(_onTicked);
     _tickerSubscription = _ticker
-        .tick(ticks:_duration)
+        .tick(ticks:duration)
         .listen((duration) => add(TimerTicked(duration: duration)));
   }
 
@@ -57,10 +57,10 @@ class TimerBloc extends Bloc<TimerEvent, TimerState> {
 
   void _onReset(TimerReset event, Emitter<TimerState> emit) {
     _tickerSubscription?.cancel();
-    emit(TimerInitial(_duration));
+    emit(TimerInitial(duration));
     emit(TimerRunInProgress(state.duration));
     _tickerSubscription = _ticker
-        .tick(ticks: _duration)
+        .tick(ticks: duration)
         .listen((duration) => add(TimerTicked(duration: duration)));
   }
 

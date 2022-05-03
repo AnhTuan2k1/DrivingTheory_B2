@@ -1,25 +1,48 @@
 
-
+import "dart:math" show pi;
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:step_progress_indicator/step_progress_indicator.dart';
 import '../../bloc/timer_bloc/ticker.dart';
 import '../../bloc/timer_bloc/timer_bloc.dart';
 
-/*class TimerProgress extends StatelessWidget {
+class TimerProgress extends StatelessWidget {
   const TimerProgress({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (_) => TimerBloc(ticker: Ticker()),
-      child: Column(
-        children: const <Widget>[
-          Center(child: TimerText()),
-          //Actions(),
-        ],
+    final duration = context.select((TimerBloc bloc) => bloc.state.duration);
+    final minutesStr =
+    ((duration / 60) % 60).floor().toString().padLeft(2, '0');
+    final secondsStr = (duration % 60).floor().toString().padLeft(2, '0');
+    return SizedBox(
+      width: 70,
+      height: 70,
+      child: Stack(
+        alignment: AlignmentDirectional.center,
+        children:[
+          FittedBox(
+            child: Text(
+              '$minutesStr:$secondsStr',
+              style: TextStyle(fontSize: 15),
+            ),
+          ),
+          CircularStepProgressIndicator(
+            circularDirection: CircularDirection.counterclockwise,
+            totalSteps: TimerBloc.duration,
+            currentStep: duration,
+            selectedColor: Colors.greenAccent,
+            unselectedColor: Colors.grey[200],
+            padding: 0,
+            selectedStepSize: 9.0,
+            roundedCap: (_, __) => true,
+          ),
+
+
+        ]
       ),
     );
   }
-}*/
+}
 
 class TimerText extends StatelessWidget {
   const TimerText({Key? key}) : super(key: key);

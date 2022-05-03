@@ -11,15 +11,15 @@ class SubmitExamDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text('Alert'),
-      content: Text('có chắc là muốn nộp chưa đó?'),
+      title: const Text('Alert'),
+      content: const Text('có chắc là muốn nộp chưa đó?😱'),
       actions: [
         TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: Text('Không')),
+            child: const Text('Không')),
         TextButton(
             onPressed: () => Navigator.of(context).pop(true),
-            child: Text('Có'))
+            child: const Text('Có'))
       ],
     );
   }

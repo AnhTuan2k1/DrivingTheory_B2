@@ -1,4 +1,4 @@
-import 'package:driving_theory_b2/UI/exam/exam_questions_page.dart';
+import 'package:driving_theory_b2/UI/exam_screens/exam_questions_page.dart';
 import 'package:driving_theory_b2/UI/widget/timer_progress.dart';
 import 'package:driving_theory_b2/model/exam_questions.dart';
 import 'package:flutter/material.dart';
@@ -58,6 +58,6 @@ class Exam extends StatelessWidget {
       {required int id, required BuildContext context}) async {
     List<Question> questions = await QuestionApi.getQuestionsLocally(context);
 
-    return ExamQuestions(questions);
+    return ExamQuestions(questions, 'Đề thi thử ngẫu nhiên');
   }
 }
