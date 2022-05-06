@@ -9,7 +9,7 @@ part 'timer_state.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final Ticker _ticker;
-  static const int duration = 10;
+  static const int duration = 8;
 
   StreamSubscription<int>? _tickerSubscription;
 

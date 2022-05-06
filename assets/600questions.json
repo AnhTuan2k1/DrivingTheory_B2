@@ -129,6 +129,647 @@
         "content": "Cả ý 1 và ý 2."
       }
     ]
-  }
+  },
 
+
+
+
+
+
+
+
+
+  {
+    "id": 1,
+    "type": 1,
+    "vital": false,
+    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phần mặt đường và lề đường."
+      },
+      {
+        "id": 2,
+        "content": "Phần đường xe chạy."
+      },
+      {
+        "id": 3,
+        "content": "Phần đường xe cơ giới."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "type": 1,
+    "vital": false,
+    "content": "\"Làn đường\" là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
+      },
+      {
+        "id": 2,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "type": 1,
+    "vital": true,
+    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đỗ xe trên đường phố."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
+      },
+      {
+        "id": 3,
+        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+      },
+      {
+        "id": 4,
+        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+      }
+    ]
+  },
+
+  {
+    "id": 200,
+    "type": 3,
+    "vital": true,
+    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Thực hiện cầm máu trực tiếp."
+      },
+      {
+        "id": 2,
+        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+      }
+    ]
+  },
+
+  {
+    "id": 201,
+    "type": 3,
+    "vital": false,
+    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+      },
+      {
+        "id": 2,
+        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+
+  {
+    "id": 202,
+    "type": 3,
+    "vital": false,
+    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
+      },
+      {
+        "id": 2,
+        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": 1,
+    "vital": false,
+    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phần mặt đường và lề đường."
+      },
+      {
+        "id": 2,
+        "content": "Phần đường xe chạy."
+      },
+      {
+        "id": 3,
+        "content": "Phần đường xe cơ giới."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "type": 1,
+    "vital": false,
+    "content": "\"Làn đường\" là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
+      },
+      {
+        "id": 2,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "type": 1,
+    "vital": true,
+    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đỗ xe trên đường phố."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
+      },
+      {
+        "id": 3,
+        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+      },
+      {
+        "id": 4,
+        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+      }
+    ]
+  },
+
+  {
+    "id": 200,
+    "type": 3,
+    "vital": true,
+    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Thực hiện cầm máu trực tiếp."
+      },
+      {
+        "id": 2,
+        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+      }
+    ]
+  },
+
+  {
+    "id": 201,
+    "type": 3,
+    "vital": false,
+    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+      },
+      {
+        "id": 2,
+        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+
+  {
+    "id": 202,
+    "type": 3,
+    "vital": false,
+    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
+      },
+      {
+        "id": 2,
+        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": 1,
+    "vital": false,
+    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phần mặt đường và lề đường."
+      },
+      {
+        "id": 2,
+        "content": "Phần đường xe chạy."
+      },
+      {
+        "id": 3,
+        "content": "Phần đường xe cơ giới."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "type": 1,
+    "vital": false,
+    "content": "\"Làn đường\" là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
+      },
+      {
+        "id": 2,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "type": 1,
+    "vital": true,
+    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đỗ xe trên đường phố."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
+      },
+      {
+        "id": 3,
+        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+      },
+      {
+        "id": 4,
+        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+      }
+    ]
+  },
+
+  {
+    "id": 200,
+    "type": 3,
+    "vital": true,
+    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Thực hiện cầm máu trực tiếp."
+      },
+      {
+        "id": 2,
+        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+      }
+    ]
+  },
+
+  {
+    "id": 201,
+    "type": 3,
+    "vital": false,
+    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+      },
+      {
+        "id": 2,
+        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+
+  {
+    "id": 202,
+    "type": 3,
+    "vital": false,
+    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
+      },
+      {
+        "id": 2,
+        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": 1,
+    "vital": false,
+    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phần mặt đường và lề đường."
+      },
+      {
+        "id": 2,
+        "content": "Phần đường xe chạy."
+      },
+      {
+        "id": 3,
+        "content": "Phần đường xe cơ giới."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "type": 1,
+    "vital": false,
+    "content": "\"Làn đường\" là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
+      },
+      {
+        "id": 2,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "type": 1,
+    "vital": true,
+    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đỗ xe trên đường phố."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
+      },
+      {
+        "id": 3,
+        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+      },
+      {
+        "id": 4,
+        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+      }
+    ]
+  },
+
+  {
+    "id": 200,
+    "type": 3,
+    "vital": true,
+    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Thực hiện cầm máu trực tiếp."
+      },
+      {
+        "id": 2,
+        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+      }
+    ]
+  },
+
+  {
+    "id": 201,
+    "type": 3,
+    "vital": false,
+    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+      },
+      {
+        "id": 2,
+        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+
+  {
+    "id": 202,
+    "type": 3,
+    "vital": false,
+    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
+      },
+      {
+        "id": 2,
+        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "type": 1,
+    "vital": false,
+    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phần mặt đường và lề đường."
+      },
+      {
+        "id": 2,
+        "content": "Phần đường xe chạy."
+      },
+      {
+        "id": 3,
+        "content": "Phần đường xe cơ giới."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "type": 1,
+    "vital": false,
+    "content": "\"Làn đường\" là gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
+      },
+      {
+        "id": 2,
+        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "type": 1,
+    "vital": true,
+    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đỗ xe trên đường phố."
+      },
+      {
+        "id": 2,
+        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
+      },
+      {
+        "id": 3,
+        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+      },
+      {
+        "id": 4,
+        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+      }
+    ]
+  },
+
+  {
+    "id": 200,
+    "type": 3,
+    "vital": true,
+    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Thực hiện cầm máu trực tiếp."
+      },
+      {
+        "id": 2,
+        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+      }
+    ]
+  },
+
+  {
+    "id": 201,
+    "type": 3,
+    "vital": false,
+    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+      },
+      {
+        "id": 2,
+        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  }
 ]

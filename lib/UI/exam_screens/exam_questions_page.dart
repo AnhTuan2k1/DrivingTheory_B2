@@ -9,6 +9,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../bloc/timer_bloc/ticker.dart';
 import '../../bloc/timer_bloc/timer_bloc.dart';
 import '../../model/question.dart';
+import '../dialog/change_question_dialog.dart';
 import '../dialog/stop_exam_dialog.dart';
 import '../dialog/submit_exam_dialog.dart';
 
@@ -53,18 +54,26 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
               actions: [
                 Builder(builder: (context) {
                   final TimerBloc timerBloc =
-                      BlocProvider.of<TimerBloc>(context);
+                  BlocProvider.of<TimerBloc>(context);
                   return BlocBuilder<TimerBloc, TimerState>(
                     bloc: timerBloc,
                     buildWhen: (prev, state) =>
-                        prev.runtimeType != state.runtimeType,
+                    prev.runtimeType != state.runtimeType,
                     builder: (context, state) {
-                      return TextButton(
+                      return !widget.examQuestions.submited
+                          ? TextButton(
                         onPressed: () {
                           handleSubmittingButtonExam(context);
                         },
                         child: const Text(
                           "Nộp Bài",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      )
+                          : TextButton(
+                        onPressed: () {},
+                        child: const Text(
+                          "Đã Nộp",
                           style: TextStyle(color: Colors.white),
                         ),
                       );
@@ -73,26 +82,64 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
                 }),
               ],
             ),
-            body: Container(
-              color: Colors.white,
-              child: Column(children: [
-                buildStateExamPage(),
-                Expanded(
-                  child: PageView(
-                      onPageChanged: (index) => wheelControler.animateToItem(
-                          index,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeInOut),
-                      controller: controller,
-                      children: widget.examQuestions.questions
-                          .map(
-                            (question) => SingleChildScrollView(
-                              child: Column(children: buildQuestion(question)),
-                            ),
-                          )
-                          .toList()),
-                ),
-              ]),
+            body: Stack(
+                children:[
+                  Column(
+                      children: [
+                        buildStateExamPage(),
+                        Expanded(
+                          child: PageView(
+                              onPageChanged: (index) => wheelControler.animateToItem(
+                                  index,
+                                  duration: const Duration(milliseconds: 100),
+                                  curve: Curves.easeInOut),
+                              controller: controller,
+                              children: widget.examQuestions.questions
+                                  .map(
+                                    (question) => SingleChildScrollView(
+                                  child: Column(children: buildQuestion(question)),
+                                ),
+                              )
+                                  .toList()),
+                        ),
+                      ]),
+                  Positioned(
+                    bottom: 30.0,
+                    left: 20,
+                    right: 20,
+                    child: Row(
+                      children: [
+                        Expanded(
+                            flex: 9,
+                            child: Card(
+                              child: OutlinedButton(
+                                  onPressed: () => controller.previousPage(
+                                      duration: const Duration(milliseconds: 300),
+                                      curve: Curves.easeInCubic),
+                                  child: const ListTile(
+                                    leading: Icon(Icons.west_outlined, color: Colors.deepPurpleAccent,),
+                                    title: FittedBox(child: Text('Câu sau', textAlign: TextAlign.center,)),)),
+                            )
+                        ),
+                        Expanded(
+                          flex: 10,
+                            child: Card(
+                              margin: const EdgeInsets.only(left: 10.0),
+                              child: OutlinedButton(
+                                  onPressed: () => controller.nextPage(
+                                      duration: const Duration(milliseconds: 300),
+                                      curve: Curves.easeInCubic),
+                                  child: const ListTile(
+                                    title: FittedBox(child: Text('Câu kế tiếp', textAlign: TextAlign.center,)),
+                                    trailing: Icon(Icons.east_outlined, color: Colors.deepPurpleAccent,),
+                                  )),
+                            )
+                        )
+                      ],
+                    ),
+                  )
+
+                ]
             )),
       ),
     );
@@ -106,35 +153,38 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
       Expanded(
         child: SizedBox(
           height: 70,
-          child: ListWheelScrollViewX(
-            controller: wheelControler,
-            scrollDirection: Axis.horizontal,
-            itemExtent: 90,
-            perspective: 0.004,
-            onSelectedItemChanged: (index) {
-              controller.jumpToPage(index);
-            },
-            physics: const BouncingScrollPhysics(),
-            children: widget.examQuestions.questions
-                .map((question) => Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                          //color: Colors.cyanAccent,
-                          border: Border.all(color: Colors.blueAccent)),
-                      width: 70,
-                      height: 70,
-                      margin: const EdgeInsets.fromLTRB(1.0, 15.0, 1.0, 15.0),
-                      padding: const EdgeInsets.all(5.0),
-                      child: Center(
-                        child: Text(
-                          (widget.examQuestions.questions.indexOf(question) + 1)
-                              .toString(),
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(fontSize: 20),
-                        ),
-                      ),
-                    ))
-                .toList(),
+          child: GestureDetector(
+            onTap: () => handleChangeQuestion(),
+            child: ListWheelScrollViewX(
+              controller: wheelControler,
+              scrollDirection: Axis.horizontal,
+              itemExtent: 70,
+              perspective: 0.004,
+              onSelectedItemChanged: (index) {
+                controller.jumpToPage(index);
+              },
+              physics: const BouncingScrollPhysics(),
+              children: widget.examQuestions.questions
+                  .map((question) => Container(
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(10.0)),
+                    //color: Colors.cyanAccent,
+                    border: Border.all(color: Colors.blueAccent)),
+                width: 70,
+                height: 70,
+                margin: const EdgeInsets.fromLTRB(1.0, 15.0, 1.0, 15.0),
+                padding: const EdgeInsets.all(5.0),
+                child: Center(
+                  child: Text(
+                    (widget.examQuestions.questions.indexOf(question) + 1)
+                        .toString(),
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(fontSize: 20),
+                  ),
+                ),
+              ))
+                  .toList(),
+            ),
           ),
         ),
       ),
@@ -173,7 +223,7 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
                       color: Colors.black,
                       offset: Offset(1, 3))
                 ] // Make rounded corner of border
-                ),
+            ),
             child: Text(
               'Câu ${widget.examQuestions.questions.indexOf(question) + 1}:  ${question.content}',
               style: TextStyle(fontSize: 15),
@@ -187,7 +237,7 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
     ));
 
     list.addAll((question.answers.map(
-      (e) => Container(
+          (e) => Container(
         padding: const EdgeInsets.fromLTRB(10.0, 2.0, 10.0, 2.0),
         child: Card(
             elevation: 0.0,
@@ -211,10 +261,10 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
                 child: Text(
                   e.id.toString(),
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontWeight: FontWeight.bold),
+                  style: const TextStyle(fontWeight: FontWeight.bold),
                 ),
               ),
-              title: Text('${e.content}'),
+              title: Text(e.content),
               trailing: ShowAnswer(question, e.id),
               onTap: () {
                 if (!widget.examQuestions.submited) {
@@ -241,13 +291,13 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
 
   getColor(Question question, identifier, {bool round = false}) {
     if (question.selectedAnswerId == null) {
-      if (round) return Colors.black54;
+      if (round) return Colors.black26;
       return Colors.white;
     } else if (question.selectedAnswerId == identifier) {
       if (round) return Theme.of(context).primaryColor;
       return Theme.of(context).secondaryHeaderColor;
     } else {
-      if (round) return Colors.black54;
+      if (round) return Colors.black26;
       return Colors.white;
     }
   }
@@ -265,21 +315,33 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
       return Future.value(false);
   }
 
+  handleChangeQuestion() async {
+    int? x;
+    await showDialog<int>(
+        context: context,
+        builder: (context) {
+          return ChangeQuestionDialog(questions: widget.examQuestions.questions, submited: widget.examQuestions.submited);
+        }).then((value) => {
+      x = value ?? controller.page?.toInt(),
+      wheelControler.jumpToItem(x ?? 0)
+    });
+  }
+
   handleSubmittingButtonExam(BuildContext buildContext) async {
     await showDialog<bool>(
         context: context,
         builder: (context) {
           return const SubmitExamDialog();
         }).then((value) => {
-          if (value != null)
+      if (value != null)
+        {
+          if (value)
             {
-              if (value)
-                {
-                  buildContext.read<TimerBloc>().add(const TimerPaused()),
-                  handleSubmittingExam()
-                }
+              buildContext.read<TimerBloc>().add(const TimerPaused()),
+              handleSubmittingExam()
             }
-        });
+        }
+    });
   }
 
   handleSubmittingExam() {
@@ -290,11 +352,11 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
         context,
         MaterialPageRoute(
             builder: (context) => ResultPage(
-                  result: widget.examQuestions.result,
-                  correctQuestions: widget.examQuestions.correctQuestions,
-                  wrongQuestions: widget.examQuestions.wrongQuestions,
-                  notSelectedQuestions:
-                      widget.examQuestions.notSelectedQuestions,
-                )));
+              result: widget.examQuestions.result,
+              correctQuestions: widget.examQuestions.correctQuestions,
+              wrongQuestions: widget.examQuestions.wrongQuestions,
+              notSelectedQuestions:
+              widget.examQuestions.notSelectedQuestions,
+            )));
   }
 }

@@ -19,16 +19,22 @@ class ExamQuestions{
     correctQuestions = 0;
     wrongQuestions = 0;
     notSelectedQuestions = 0;
+
+    bool wrongVitalQuestion = false;
     questions.forEach((element) {
       if(element.selectedAnswerId != null){
         if(element.selectedAnswerId == element.correctAnswerId)
           correctQuestions++;
       }
-      else notSelectedQuestions++;
+      else {
+        notSelectedQuestions++;
+        if(element.vital) wrongVitalQuestion = true;
+      }
     });
 
     mark = 10*correctQuestions/questions.length;
     wrongQuestions = questions.length - correctQuestions - notSelectedQuestions;
+    result = !wrongVitalQuestion && correctQuestions > 31;
     submited = true;
     return mark;
   }
