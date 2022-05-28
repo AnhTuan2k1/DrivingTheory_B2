@@ -133,642 +133,2614 @@
 
 
 
-
-
-
-
-
-
   {
-    "id": 1,
-    "type": 1,
+    "id": 301,
+    "type": 5,
     "vital": false,
-    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
-    "correctAnswerId": 2,
+    "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây không tắt trong thời gian dài, báo hiệu tình trạng như thế nào của xe ô tô?",
+    "correctAnswerId": 4,
     "answers": [
       {
         "id": 1,
-        "content": "Phần mặt đường và lề đường."
+        "content": "Nhiệt độ nước làm mát động cơ quá ngưỡng cho phép."
       },
       {
         "id": 2,
-        "content": "Phần đường xe chạy."
+        "content": "Áp suất lốp không đủ."
       },
       {
         "id": 3,
-        "content": "Phần đường xe cơ giới."
-      }
-    ]
-  },
-
-  {
-    "id": 2,
-    "type": 1,
-    "vital": false,
-    "content": "\"Làn đường\" là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
-      },
-      {
-        "id": 2,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
-      },
-      {
-        "id": 3,
-        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
-      }
-    ]
-  },
-
-  {
-    "id": 17,
-    "type": 1,
-    "vital": true,
-    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
-    "correctAnswerId": 3,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Đỗ xe trên đường phố."
-      },
-      {
-        "id": 2,
-        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
-      },
-      {
-        "id": 3,
-        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+        "content": "Đang hãm phanh tay."
       },
       {
         "id": 4,
-        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+        "content": "Hệ thống lái gặp trục trặc."
       }
     ]
   },
 
   {
-    "id": 200,
-    "type": 3,
-    "vital": true,
-    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Thực hiện cầm máu trực tiếp."
-      },
-      {
-        "id": 2,
-        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
-      }
-    ]
-  },
-
-  {
-    "id": 201,
-    "type": 3,
+    "id": 302,
+    "type": 5,
     "vital": false,
-    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
-    "correctAnswerId": 3,
+    "content": "Trên xe ô tô có trang bị thiết bị như hình vẽ dưới đây có tác dụng gì?",
+    "correctAnswerId": 1,
     "answers": [
       {
         "id": 1,
-        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+        "content": "Dùng để kích (hay nâng) xe ô tô."
       },
       {
         "id": 2,
-        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+        "content": "Vặn ốc lắp bánh xe."
       },
       {
         "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-
-  {
-    "id": 202,
-    "type": 3,
-    "vital": false,
-    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
-      },
-      {
-        "id": 2,
-        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
-      },
-      {
-        "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "type": 1,
-    "vital": false,
-    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Phần mặt đường và lề đường."
-      },
-      {
-        "id": 2,
-        "content": "Phần đường xe chạy."
-      },
-      {
-        "id": 3,
-        "content": "Phần đường xe cơ giới."
-      }
-    ]
-  },
-
-  {
-    "id": 2,
-    "type": 1,
-    "vital": false,
-    "content": "\"Làn đường\" là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
-      },
-      {
-        "id": 2,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
-      },
-      {
-        "id": 3,
-        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
-      }
-    ]
-  },
-
-  {
-    "id": 17,
-    "type": 1,
-    "vital": true,
-    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
-    "correctAnswerId": 3,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Đỗ xe trên đường phố."
-      },
-      {
-        "id": 2,
-        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
-      },
-      {
-        "id": 3,
-        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+        "content": "Ổn định chuyển động của xe ô tô khi đi vào đường vòng."
       },
       {
         "id": 4,
-        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+        "content": "Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại."
       }
     ]
   },
 
   {
-    "id": 200,
-    "type": 3,
-    "vital": true,
-    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Thực hiện cầm máu trực tiếp."
-      },
-      {
-        "id": 2,
-        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
-      }
-    ]
-  },
-
-  {
-    "id": 201,
-    "type": 3,
+    "id": 303,
+    "type": 5,
     "vital": false,
-    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
+    "content": "Trên xe ô tô có trang bị thiết bị như hình vẽ, dùng để làm gì?",
     "correctAnswerId": 3,
     "answers": [
       {
         "id": 1,
-        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+        "content": "Thay lốp xe."
       },
       {
         "id": 2,
-        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+        "content": "Chữa cháy."
       },
       {
         "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-
-  {
-    "id": 202,
-    "type": 3,
-    "vital": false,
-    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
-      },
-      {
-        "id": 2,
-        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
-      },
-      {
-        "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "type": 1,
-    "vital": false,
-    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Phần mặt đường và lề đường."
-      },
-      {
-        "id": 2,
-        "content": "Phần đường xe chạy."
-      },
-      {
-        "id": 3,
-        "content": "Phần đường xe cơ giới."
-      }
-    ]
-  },
-
-  {
-    "id": 2,
-    "type": 1,
-    "vital": false,
-    "content": "\"Làn đường\" là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
-      },
-      {
-        "id": 2,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
-      },
-      {
-        "id": 3,
-        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
-      }
-    ]
-  },
-
-  {
-    "id": 17,
-    "type": 1,
-    "vital": true,
-    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
-    "correctAnswerId": 3,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Đỗ xe trên đường phố."
-      },
-      {
-        "id": 2,
-        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
-      },
-      {
-        "id": 3,
-        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+        "content": "Phá cửa kính xe ô tô trong các trường hợp khẩn cấp."
       },
       {
         "id": 4,
-        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+        "content": "Vặn ốc để tháo lắp bánh xe."
       }
     ]
   },
 
   {
-    "id": 200,
-    "type": 3,
-    "vital": true,
-    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
+    "id": 304,
+    "type": 5,
+    "vital": false,
+    "content": "Trên xe ô tô có trang bị thiết bị như hình vẽ, dùng để làm gì?",
     "correctAnswerId": 2,
     "answers": [
       {
         "id": 1,
-        "content": "Thực hiện cầm máu trực tiếp."
+        "content": "Thay lốp xe."
       },
       {
         "id": 2,
-        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
-      }
-    ]
-  },
-
-  {
-    "id": 201,
-    "type": 3,
-    "vital": false,
-    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
-    "correctAnswerId": 3,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
-      },
-      {
-        "id": 2,
-        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+        "content": "Chữa cháy trong các trường hợp hỏa hoạn."
       },
       {
         "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-
-  {
-    "id": 202,
-    "type": 3,
-    "vital": false,
-    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
-      },
-      {
-        "id": 2,
-        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
-      },
-      {
-        "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "type": 1,
-    "vital": false,
-    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Phần mặt đường và lề đường."
-      },
-      {
-        "id": 2,
-        "content": "Phần đường xe chạy."
-      },
-      {
-        "id": 3,
-        "content": "Phần đường xe cơ giới."
-      }
-    ]
-  },
-
-  {
-    "id": 2,
-    "type": 1,
-    "vital": false,
-    "content": "\"Làn đường\" là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
-      },
-      {
-        "id": 2,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
-      },
-      {
-        "id": 3,
-        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
-      }
-    ]
-  },
-
-  {
-    "id": 17,
-    "type": 1,
-    "vital": true,
-    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
-    "correctAnswerId": 3,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Đỗ xe trên đường phố."
-      },
-      {
-        "id": 2,
-        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
-      },
-      {
-        "id": 3,
-        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+        "content": "Phá cửa kính xe ô tô trong các trường hợp khẩn cấp."
       },
       {
         "id": 4,
-        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+        "content": "Cầm máu cho người bị nạn."
       }
     ]
   },
 
   {
-    "id": 200,
-    "type": 3,
-    "vital": true,
-    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Thực hiện cầm máu trực tiếp."
-      },
-      {
-        "id": 2,
-        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
-      }
-    ]
-  },
-
-  {
-    "id": 201,
-    "type": 3,
+    "id": 305,
+    "type": 6,
     "vital": false,
-    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
-    "correctAnswerId": 3,
+    "content": "Biển nào cấm các loại xe cơ giới đi vào, trừ xe gắn máy, mô tô hai bánh và các loại xe ưu tiên theo luật định?",
+    "correctAnswerId": 1,
     "answers": [
       {
         "id": 1,
-        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+        "content": " Biển 1."
       },
       {
         "id": 2,
-        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+        "content": " Biển 2."
       },
       {
         "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-
-  {
-    "id": 202,
-    "type": 3,
-    "vital": false,
-    "content": "Trong các hành vi dưới đây, người lái xe mô tô có văn hóa giao thông phải ứng xử như thế nào?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": " Điều khiển xe đi trên phần đường, làn đường có ít phương tiện tham gia giao thông, chỉ đội mũ bảo hiểm ở nơi có biển báo bắt buộc đội mũ bảo hiểm."
-      },
-      {
-        "id": 2,
-        "content": " Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe; chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông; nhường đường cho người đi bộ, người già, trẻ em và người khuyết tật."
-      },
-      {
-        "id": 3,
-        "content": "Cả ý 1 và ý 2."
-      }
-    ]
-  },
-  {
-    "id": 1,
-    "type": 1,
-    "vital": false,
-    "content": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Phần mặt đường và lề đường."
-      },
-      {
-        "id": 2,
-        "content": "Phần đường xe chạy."
-      },
-      {
-        "id": 3,
-        "content": "Phần đường xe cơ giới."
-      }
-    ]
-  },
-
-  {
-    "id": 2,
-    "type": 1,
-    "vital": false,
-    "content": "\"Làn đường\" là gì?",
-    "correctAnswerId": 2,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy."
-      },
-      {
-        "id": 2,
-        "content": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn."
-      },
-      {
-        "id": 3,
-        "content": "Là đường cho xe ô tô chạy, dừng, đỗ an toàn."
-      }
-    ]
-  },
-
-  {
-    "id": 17,
-    "type": 1,
-    "vital": true,
-    "content": "Hành vi nào dưới đây bị nghiêm cấm?",
-    "correctAnswerId": 3,
-    "answers": [
-      {
-        "id": 1,
-        "content": "Đỗ xe trên đường phố."
-      },
-      {
-        "id": 2,
-        "content": "Sử dụng xe đạp đi trên các tuyến quốc lộ có tốc độ cao."
-      },
-      {
-        "id": 3,
-        "content": "Làm hỏng (cố ý) cọc tiêu, gương cầu, dải phân cách."
+        "content": "Biển 1 và 3."
       },
       {
         "id": 4,
-        "content": " Sử dụng còi và quay đầu xe trong khu dân cư."
+        "content": "Cả ba biển."
       }
     ]
   },
 
   {
-    "id": 200,
-    "type": 3,
-    "vital": true,
-    "content": "Khi sơ cứu người bị tai nạn giao thông đường bộ, có vết thương chảy máu ngoài, màu đỏ tươi phun thành tia và phun mạnh khi mạch đập, bạn phải làm gì dưới đây?",
+    "id": 306,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm ô tô tải?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả ba biển."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": " Biển 1 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và 2."
+      }
+    ]
+  },
+
+  {
+    "id": 307,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm máy kéo?",
     "correctAnswerId": 2,
     "answers": [
       {
         "id": 1,
-        "content": "Thực hiện cầm máu trực tiếp."
+        "content": " Biển 1."
       },
       {
         "id": 2,
-        "content": "Thực hiện cầm máu không trực tiếp (chặn động mạch)."
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": " Biển 1 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
       }
     ]
   },
 
   {
-    "id": 201,
-    "type": 3,
+    "id": 308,
+    "type": 6,
     "vital": false,
-    "content": "Người lái xe có văn hóa khi tham gia giao thông phải đáp ứng các điều kiện nào dưới đây?",
+    "content": "Biển nào báo hiệu cấm xe mô tô ba bánh đi vào?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 309,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây xe gắn máy được phép đi vào?",
     "correctAnswerId": 3,
     "answers": [
       {
         "id": 1,
-        "content": "Có trách nhiệm với bản thân và với cộng đồng; tôn trọng, nhường nhịn người khác."
+        "content": "Biển 1."
       },
       {
         "id": 2,
-        "content": "Tận tình giúp đỡ người tham gia giao thông gặp hoạn nạn; giúp đỡ người khuyết tật, trẻ em và người cao tuổi."
+        "content": "Biển 2."
       },
       {
         "id": 3,
-        "content": "Cả ý 1 và ý 2."
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 310,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu cấm xe mô tô hai bánh đi vào?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 311,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp biển nào thì xe mô tô hai bánh được đi vào?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không biển nào."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 3,
+        "content": " Biển 2 và"
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 312,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cho phép ô tô con được vượt?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 313,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào không cho phép ô tô con vượt?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 1."
+      }
+    ]
+  },
+
+  {
+    "id": 314,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm ô tô tải vượt?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 315,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm xe tải vượt?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": " Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 316,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào xe ô tô con được phép vượt?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+
+  {
+    "id": 317,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm quay đầu xe?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Không biển nào."
+      },
+      {
+        "id": 4,
+        "content": " Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 318,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm xe rẽ trái?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": " Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 319,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp biển nào xe được rẽ trái?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+
+  {
+    "id": 320,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm ô tô rẽ trái?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 321,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm các phương tiện giao thông đường bộ rẽ phải?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": " Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 322,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm các phương tiện giao thông đường bộ rẽ trái?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": " Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 323,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây cấm ô tô quay đầu?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+
+  {
+    "id": 324,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây cấm ô tô quay đầu và rẽ phải?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 325,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm xe taxi mà không cấm các phương tiện khác?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+
+  {
+    "id": 326,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm xe taxi mà không cấm các phương tiện khác?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+
+  {
+    "id": 327,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào xe quay đầu không bị cấm?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 328,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào xe được phép quay đầu nhưng không được rẽ trái?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 329,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào là biển \"Cấm đi ngược chiều\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 330,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây các phương tiện không được phép đi vào?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 1 và 2."
+      }
+    ]
+  },
+
+  {
+    "id": 331,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển nào người lái xe không được đỗ xe vào ngày chẵn?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 332,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển nào người lái xe không được đỗ xe vào ngày lẻ?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 333,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp biển nào xe ưu tiên theo luật định vẫn phải dừng lại?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 334,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm tất cả các loại xe cơ giới và thô sơ đi lại trên đường, trừ xe ưu tiên theo luật định (nếu đường vẫn cho xe chạy được)?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 335,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào là biển \"Cấm xe chở hàng nguy hiểm\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 336,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển nào xe xích lô được phép đi vào?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và biển 2."
+      }
+    ]
+  },
+
+  {
+    "id": 337,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển nào xe lam, xe xích lô máy được phép đi vào?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 338,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đường cấm súc vật vận tải hàng hóa."
+      },
+      {
+        "id": 2,
+        "content": "Đường cấm súc vật vận tải hành khách."
+      },
+      {
+        "id": 3,
+        "content": " Đường cấm súc vật vận tải hàng hóa hoặc hành khách dù kéo xe hay chở trên lưng đi qua."
+      }
+    ]
+  },
+
+  {
+    "id": 339,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa như thế nào?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tốc độ tối đa cho phép về ban đêm cho các phương tiện là 70 km/h."
+      },
+      {
+        "id": 2,
+        "content": "Tốc độ tối thiểu cho phép về ban đêm cho các phương tiện là 70 km/h."
+      }
+    ]
+  },
+
+  {
+    "id": 340,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp các biển này xe ưu tiên theo luật định (có tải trọng hay chiều cao toàn bộ vượt quá chỉ số ghi trên biển) có được phép đi qua hay không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép."
+      },
+      {
+        "id": 2,
+        "content": "Không được phép."
+      }
+    ]
+  },
+
+  {
+    "id": 341,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào hạn chế chiều cao của xe và hàng?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 342,
+    "type": 6,
+    "vital": false,
+    "content": "Biển số 2 có ý nghĩa như thế nào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cho phép ô tô có tải trọng trục lớn hơn 7 tấn đi qua."
+      },
+      {
+        "id": 2,
+        "content": "Cho phép ô tô có tải trọng trên trục xe từ 7 tấn trở xuống đi qua."
+      }
+    ]
+  },
+
+  {
+    "id": 343,
+    "type": 6,
+    "vital": false,
+    "content": "Biển số 3 có ý nghĩa như thế nào?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cấm các loại xe có tải trọng toàn bộ trên 10 tấn đi qua."
+      },
+      {
+        "id": 2,
+        "content": "Hạn chế khối lượng hàng hóa chở trên xe."
+      },
+      {
+        "id": 3,
+        "content": "Hạn chế tải trọng trên trục xe."
+      }
+    ]
+  },
+
+  {
+    "id": 344,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm máy kéo kéo theo rơ moóc?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 345,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp biển số 1, xe ô tô tải có được đi vào không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được đi vào."
+      },
+      {
+        "id": 2,
+        "content": "Không được đi vào."
+      }
+    ]
+  },
+
+  {
+    "id": 346,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào không có hiệu lực đối với ô tô tải không kéo moóc?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": " Biển 1 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 347,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cấm máy kéo?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": " Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 348,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp biển này, xe mô tô ba bánh có được phép rẽ trái hoặc rẽ phải hay không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được đi vào."
+      },
+      {
+        "id": 2,
+        "content": "Không được đi vào."
+      }
+    ]
+  },
+
+  {
+    "id": 349,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có hiệu lực đối với xe mô tô hai, ba bánh không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có."
+      },
+      {
+        "id": 2,
+        "content": "Không."
+      }
+    ]
+  },
+
+  {
+    "id": 350,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cấm xe cơ giới (trừ xe ưu tiên theo luật định) đi thẳng."
+      },
+      {
+        "id": 2,
+        "content": "Cấm xe ô tô và mô tô (trừ xe ưu tiên theo luật định) đi về bên trái và bên phải."
+      },
+      {
+        "id": 3,
+        "content": "Hướng trái và phải không cấm xe cơ giới."
+      }
+    ]
+  },
+
+  {
+    "id": 351,
+    "type": 6,
+    "vital": false,
+    "content": "Biển phụ đặt dưới biển cấm bóp còi có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo khoảng cách đến nơi cấm bóp còi."
+      },
+      {
+        "id": 2,
+        "content": "Chiều dài đoạn đường cấm bóp còi từ nơi đặt biển."
+      },
+      {
+        "id": 3,
+        "content": "Báo cấm dùng còi có độ vang xa 500m."
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "type": 6,
+    "vital": false,
+    "content": "Chiều dài đoạn đường 500 m từ nơi đặt biển này, người lái xe có được phép bấm còi không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép."
+      },
+      {
+        "id": 2,
+        "content": "Không được phép."
+      }
+    ]
+  },
+
+  {
+    "id": 353,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào xe mô tô hai bánh được đi vào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": " Biển 2 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 354,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào xe mô tô hai bánh không được đi vào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": " Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 355,
+    "type": 6,
+    "vital": false,
+    "content": "Ba biển này có hiệu lực như thế nào?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cấm các loại xe ở biển phụ đi vào."
+      },
+      {
+        "id": 2,
+        "content": "Cấm các loại xe cơ giới đi vào trừ loại xe ở biển phụ."
+      }
+    ]
+  },
+
+  {
+    "id": 356,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu chiều dài đoạn đường phải giữ cự ly tối thiểu giữa hai xe?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 357,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu khoảng cách thực tế từ nơi đặt biển đến nơi cần cự ly tối thiểu giữa hai xe?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 358,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cấm dừng xe về hướng bên trái."
+      },
+      {
+        "id": 2,
+        "content": "Cấm đỗ xe và cấm dừng xe theo hướng bên phải."
+      },
+      {
+        "id": 3,
+        "content": "Được phép đỗ xe và dừng xe theo hướng bên phải."
+      }
+    ]
+  },
+
+  {
+    "id": 359,
+    "type": 6,
+    "vital": false,
+    "content": "Theo hướng bên phải có được phép đỗ xe, dừng xe không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không được phép."
+      },
+      {
+        "id": 2,
+        "content": " Được phép."
+      }
+    ]
+  },
+
+  {
+    "id": 360,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển này, xe ô tô sơ mi rơ moóc có chiều dài toàn bộ kể cả xe, moóc và hàng lớn hơn trị số ghi trên biển có được phép đi vào hay không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không được phép."
+      },
+      {
+        "id": 2,
+        "content": " Được phép."
+      }
+    ]
+  },
+
+  {
+    "id": 361,
+    "type": 6,
+    "vital": false,
+    "content": "Xe ô tô chở hàng vượt quá phía trước và sau thùng xe, mỗi phía quá 10% chiều dài toàn bộ thân xe, tổng chiều dài xe (cả hàng) từ trước đến sau nhỏ hơn trị số ghi trên biển thì có được phép đi vào không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không được phép."
+      },
+      {
+        "id": 2,
+        "content": "Được phép."
+      }
+    ]
+  },
+
+  {
+    "id": 362,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cấm ô tô buýt."
+      },
+      {
+        "id": 2,
+        "content": "Cấm ô tô chở khách."
+      },
+      {
+        "id": 3,
+        "content": "Cấm ô tô con."
+      }
+    ]
+  },
+
+  {
+    "id": 363,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hạn chế chiều cao của xe và hàng."
+      },
+      {
+        "id": 2,
+        "content": ". Hạn chế chiều ngang của xe và hàng."
+      },
+      {
+        "id": 2,
+        "content": "Hạn chế chiều dài của xe và hàng."
+      }
+    ]
+  },
+
+  {
+    "id": 364,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào là biển \"Tốc độ tối đa cho phép về ban đêm\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 365,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo nào báo hiệu bắt đầu đoạn đường vào phạm vi khu dân cư, các phương tiện tham gia giao thông phải tuân theo các quy định đi đường được áp dụng ở khu đông dân cư?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+
+  {
+    "id": 366,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu hạn chế tốc độ của phương tiện không vượt quá trị số ghi trên biển?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+
+  {
+    "id": 367,
+    "type": 6,
+    "vital": false,
+    "content": "Trong các biển báo dưới đây biển nào báo hiệu \"Hết đường cao tốc\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 368,
+    "type": 6,
+    "vital": false,
+    "content": "Số 50 ghi trên biển báo dưới đây có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tốc độ tối đa các xe cơ giới được phép chạy."
+      },
+      {
+        "id": 2,
+        "content": "Tốc độ tối thiểu các xe cơ giới được phép chạy."
+      }
+    ]
+  },
+
+  {
+    "id": 369,
+    "type": 6,
+    "vital": false,
+    "content": "Trong các biển dưới đây biển nào chỉ dẫn bắt đầu đường cao tốc?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả biển 1 và biển 2."
+      }
+    ]
+  },
+
+  {
+    "id": 370,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo dưới đây có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo hiệu tốc độ tối đa cho phép các xe cơ giới chạy."
+      },
+      {
+        "id": 2,
+        "content": "Báo hiệu tốc độ tối thiểu cho phép các xe cơ giới chạy."
+      }
+    ]
+  },
+
+  {
+    "id": 371,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển nào người lái xe phải nhường đường cho người đi bộ?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 372,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào chỉ đường dành cho người đi bộ, các loại xe không được đi vào khi gặp biển này?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": ". Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 373,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường dành cho xe thô sơ\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 374,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường dành cho xe thô sơ\"?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 375,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau với đường sắt có rào chắn\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 376,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau có tín hiệu đèn\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu nguy hiểm giao nhau với đường sắt?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 378,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu đường sắt giao nhau với đường bộ không có rào chắn?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 379,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu sắp đến chỗ giao nhau giữa đường bộ và đường sắt?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 380,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Cửa chui\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 381,
+    "type": 6,
+    "vital": false,
+    "content": "Hai biển này có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để chỉ nơi đường sắt giao vuông góc với đường bộ không có rào chắ"
+      },
+      {
+        "id": 2,
+        "content": "Để báo trước sắp đến vị trí giao cắt đường bộ với đường sắt cùng mức, không vuông góc và không có người gác, không có rào chắn."
+      },
+      {
+        "id": 3,
+        "content": "Nơi đường sắt giao nhau với đường bộ."
+      }
+    ]
+  },
+
+  {
+    "id": 382,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Nơi đường sắt giao vuông góc với đường bộ\"?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và 2."
+      }
+    ]
+  },
+
+  {
+    "id": 383,
+    "type": 6,
+    "vital": false,
+    "content": "Các biển này có ý nghĩa gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nơi đường sắt giao nhau với đường bộ."
+      },
+      {
+        "id": 2,
+        "content": "Nơi đường sắt giao vuông góc với đường bộ."
+      },
+      {
+        "id": 3,
+        "content": "Để báo trước sắp đến vị trí đường sắt giao không vuông góc với đường bộ, không có người gác và không có rào chắn."
+      }
+    ]
+  },
+
+  {
+    "id": 384,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Hết đoạn đường ưu tiên\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 385,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu, chỉ dẫn xe đi trên đường này được quyền ưu tiên qua nơi giao nhau?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 386,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau với đường không ưu tiên\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 387,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau với đường ưu tiên\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 388,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường bị thu hẹp\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 389,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp biển nào, người lái xe phải giảm tốc độ, chú ý xe đi ngược chiều, xe đi ở phía đường bị hẹp phải nhường đường cho xe đi ngược chiều?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 390,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau với đường ưu tiên\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 391,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường giao nhau\" của các tuyến đường cùng cấp?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 392,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau với đường không ưu tiên\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 393,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường hai chiều\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 394,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu phải giảm tốc độ, nhường đường cho xe cơ giới đi ngược chiều qua đường hẹp?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 395,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào chỉ dẫn \"Được ưu tiên qua đường hẹp\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 396,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường đôi\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 397,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường đôi\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 398,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Kết thúc đường đôi\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 399,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau với đường hai chiều\"??",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 400,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường hai chiều\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 401,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Giao nhau với đường hai chiều\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 402,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Chú ý chướng ngại vật\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+
+  {
+    "id": 403,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào chỉ dẫn cho người tham gia giao thông biết vị trí và khoảng cách có làn đường cứu nạn hay làn thoát xe khẩn cấp?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+
+  {
+    "id": 404,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường hầm\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả ba biể"
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": " Biển 2 và 3."
+      }
+    ]
+  },
+
+  {
+    "id": 405,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây là biển \"Cầu hẹp\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 406,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây là biển \"Cầu quay - cầu cất\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 407,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây là biển \"Kè, vực sâu phía trước\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 408,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây là biển \"Kè, vực sâu bên đường phía bên trái\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và biển 2."
+      }
+    ]
+  },
+
+  {
+    "id": 409,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây là biển \"Kè, vực sâu bên đường phía bên phải\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và biển 2."
+      }
+    ]
+  },
+
+  {
+    "id": 410,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây là biển \"Đường trơn\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 411,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây là biển \"Lề đường nguy hiểm\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 412,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây báo trước gần tới đoạn đường đang tiến hành thi công?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+
+  {
+    "id": 413,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây cảnh báo nguy hiểm đoạn đường thường xảy ra tai nạn?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+
+  {
+    "id": 414,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây báo hiệu đoạn đường hay xảy ra ùn tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả 3 biển."
+      }
+    ]
+  },
+
+  {
+    "id": 415,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển nào người tham gia giao thông phải đi chậm và thận trọng đề phòng khả năng xuất hiện và di chuyển bất ngờ của trẻ em trên mặt đường?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
       }
     ]
   }

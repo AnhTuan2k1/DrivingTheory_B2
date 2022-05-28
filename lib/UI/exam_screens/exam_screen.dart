@@ -1,6 +1,9 @@
+import 'dart:math';
+
 import 'package:driving_theory_b2/UI/exam_screens/exam_questions_page.dart';
 import 'package:driving_theory_b2/UI/widget/timer_progress.dart';
 import 'package:driving_theory_b2/model/exam_questions.dart';
+import 'package:driving_theory_b2/model/factory_exam_questions.dart';
 import 'package:flutter/material.dart';
 
 import '../../api/exam_questions_api.dart';
@@ -12,52 +15,94 @@ class Exam extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+          title: const Text('Thi Sát Hạch'),
+          backgroundColor: Colors.white,
+          foregroundColor: Colors.black,
+        ),
         body: SingleChildScrollView(
-      padding: const EdgeInsets.only(left: 8.0, right: 8.0),
-      child: Column(children: [
-        const SizedBox(
-          height: 100,
-        ),
-        GestureDetector(
-          onTap: () async {
-            ExamQuestions eq =
-                await createExamQuestion(id: 0, context: context);
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => ExamQuestionPage(examQuestions: eq)));
-          },
-          child: Card(
-            margin: const EdgeInsets.only(left: 10.0),
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20.0),
-                side: const BorderSide(
-                    color: Colors.lightGreenAccent, width: 2.0)),
-            child: ListTile(
-              leading: Container(
-                padding: const EdgeInsets.all(10.0),
-                decoration: BoxDecoration(
-                    border: Border.all(
-                      width: 3.0,
-                      color: Colors.black12,
-                    ),
-                    borderRadius: const BorderRadius.all(Radius.circular(100))),
-                child: const Icon(Icons.shuffle),
+          padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0),
+          child: Column(children: buildListExams(context),)
+        ));
+  }
+
+  List<GestureDetector> buildListExams(BuildContext context) {
+    return List.generate(
+        TypeExamData.values.length,
+        (index) => GestureDetector(
+              onTap: () async {
+                ExamQuestions eq = await createExamQuestion(
+                    typeExamData: TypeExamData.values[index], context: context);
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            ExamQuestionPage(examQuestions: eq)));
+              },
+              child: buildCard(
+                  name: FactoryExamData.getExamData(
+                          typeExamData: TypeExamData.values[index])
+                      .getTitle()),
+            ));
+  }
+
+  Card buildCard({String name = 'Tạo Đề Ngẫu Nhiên'}) {
+    return Card(
+      margin: const EdgeInsets.only(left: 2.0, top: 10.0),
+      shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20.0),
+          side: const BorderSide(color: Colors.black12)),
+      child: ListTile(
+        leading: Container(
+          padding: const EdgeInsets.all(10.0),
+          decoration: BoxDecoration(
+              border: Border.all(
+                width: 3.0,
+                color: getColors(),
               ),
-              title: const Text('Tạo Đề Ngẫu Nhiên'),
-              subtitle: const Text('35 câu/22 phút'),
-              trailing: const Text('Làm Bài'),
-            ),
-          ),
+              borderRadius: const BorderRadius.all(Radius.circular(100))),
+          child: const Icon(Icons.shuffle),
         ),
-      ]),
-    ));
+        title: Text(
+          name,
+          style: const TextStyle(fontSize: 17),
+        ),
+        subtitle: const Text('35 câu/22 phút'),
+        trailing: const Text('Làm Bài'),
+      ),
+    );
   }
 
   Future<ExamQuestions> createExamQuestion(
-      {required int id, required BuildContext context}) async {
+      {required TypeExamData typeExamData,
+      required BuildContext context}) async {
     List<Question> questions = await QuestionApi.getQuestionsLocally(context);
 
-    return ExamQuestions(questions, 'Đề thi thử ngẫu nhiên');
+    final examData = FactoryExamData.getExamData(typeExamData: typeExamData);
+
+    return ExamQuestions(
+        examData.createQuestions(questions), examData.getTitle());
+  }
+
+  Color getColors() {
+    Random random = Random();
+    List<Color> colors = <Color>[
+      Colors.red,
+      Colors.green,
+      Colors.blueAccent,
+      Colors.deepPurpleAccent,
+      Colors.orange,
+      Colors.yellowAccent,
+      Colors.pinkAccent,
+      Colors.cyan,
+      Colors.purple,
+      Colors.teal,
+      Colors.tealAccent,
+      Colors.lightGreenAccent,
+      Colors.lightGreen,
+      Colors.pink,
+      Colors.blueGrey
+    ];
+    return colors[random.nextInt(colors.length)];
   }
 }
