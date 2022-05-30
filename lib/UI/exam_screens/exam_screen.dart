@@ -1,7 +1,9 @@
 import 'dart:math';
 
+import 'package:driving_theory_b2/UI/dialog/start_exam_dialog.dart';
 import 'package:driving_theory_b2/UI/exam_screens/exam_questions_page.dart';
 import 'package:driving_theory_b2/UI/widget/timer_progress.dart';
+import 'package:driving_theory_b2/api/storage_api.dart';
 import 'package:driving_theory_b2/model/exam_questions.dart';
 import 'package:driving_theory_b2/model/factory_exam_questions.dart';
 import 'package:flutter/material.dart';
@@ -33,11 +35,7 @@ class Exam extends StatelessWidget {
               onTap: () async {
                 ExamQuestions eq = await createExamQuestion(
                     typeExamData: TypeExamData.values[index], context: context);
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) =>
-                            ExamQuestionPage(examQuestions: eq)));
+                showStartExamDialog(context, eq);
               },
               child: buildCard(
                   name: FactoryExamData.getExamData(
@@ -82,6 +80,27 @@ class Exam extends StatelessWidget {
 
     return ExamQuestions(
         examData.createQuestions(questions), examData.getTitle());
+  }
+
+  showStartExamDialog(BuildContext context, ExamQuestions eq) async {
+    await showDialog<bool>(
+        context: context,
+        builder: (context) {
+          return const StartExamDialog();
+        }).then((value) => {
+      if (value != null)
+        {
+          if (value)
+            {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) =>
+                          ExamQuestionPage(examQuestions: eq)))
+
+            }
+        }
+    });
   }
 
   Color getColors() {

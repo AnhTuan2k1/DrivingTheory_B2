@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "241175265998",
+    "project_id": "drivingtheory-b2",
+    "storage_bucket": "drivingtheory-b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241175265998:android:f4f6358bc38345177b869f",
+        "android_client_info": {
+          "package_name": "com.example.driving_theory_b2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241175265998-05036jmk9dp2taqeff6h3cgauf6s80lr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.driving_theory_b2",
+            "certificate_hash": "439f10bca593959d7dd4e72df94811d42dc5fb77"
+          }
+        },
+        {
+          "client_id": "241175265998-uc17932tu8hgsuv8pb2hja419vj5k1ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBveesZiviKhH5k8lulcCze6t0Ha14283A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241175265998-uc17932tu8hgsuv8pb2hja419vj5k1ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

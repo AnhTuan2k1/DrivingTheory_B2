@@ -27,6 +27,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  firebase_storage: ^10.2.9
+  firebase_core: ^1.13.1
   bottom_navy_bar: ^6.0.0
   step_progress_indicator: ^1.0.2
   json_annotation: ^4.4.0

@@ -1,6 +1,7 @@
 import 'package:driving_theory_b2/UI/exam_screens/result_page.dart';
 import 'package:driving_theory_b2/UI/widget/list_wheel_scroll_view_x.dart';
 import 'package:driving_theory_b2/UI/widget/timer_progress.dart';
+import 'package:driving_theory_b2/api/storage_api.dart';
 import 'package:driving_theory_b2/model/exam_questions.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -97,7 +98,12 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
                               children: widget.examQuestions.questions
                                   .map(
                                     (question) => SingleChildScrollView(
-                                  child: Column(children: buildQuestion(question)),
+                                  child: Column(
+                                    children: [
+                                      buildQuestion(question),
+                                      Column(children: buildAnswers(question)),
+                                    ],
+                                  ),
                                 ),
                               )
                                   .toList()),
@@ -112,6 +118,8 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
                         Expanded(
                             flex: 9,
                             child: Card(
+                              shadowColor: Colors.white10,
+                              color: Colors.transparent,
                               child: OutlinedButton(
                                   onPressed: () => controller.previousPage(
                                       duration: const Duration(milliseconds: 300),
@@ -124,6 +132,8 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
                         Expanded(
                           flex: 10,
                             child: Card(
+                              shadowColor: Colors.white10,
+                              color: Colors.transparent,
                               margin: const EdgeInsets.only(left: 10.0),
                               child: OutlinedButton(
                                   onPressed: () => controller.nextPage(
@@ -204,38 +214,47 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
     ]);
   }
 
-  buildQuestion(Question question) {
-    List<Widget> list = <Widget>[];
-    list.add(Column(children: [
-      Card(
-          elevation: 0.0,
-          color: Colors.white,
-          child: Container(
-            width: double.infinity,
-            padding: const EdgeInsets.all(20.0),
-            margin: const EdgeInsets.all(10.0),
-            decoration: const BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                boxShadow: [
-                  BoxShadow(
-                      blurRadius: 5.0,
-                      color: Colors.black,
-                      offset: Offset(1, 3))
-                ] // Make rounded corner of border
-            ),
-            child: Text(
-              'Câu ${widget.examQuestions.questions.indexOf(question) + 1}:  ${question.content}',
-              style: TextStyle(fontSize: 15),
-            ),
-          )),
-      if (question.image != null) ...[Image.network(question.image ?? '')],
-    ]));
+  Widget buildQuestion(Question question) {
+    return Card(
+        elevation: 0.0,
+        color: Colors.white,
+        child: Container(
+          width: double.infinity,
+          margin: const EdgeInsets.all(10.0),
+          decoration: const BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.all(Radius.circular(10.0)),
+              boxShadow: [
+                BoxShadow(
+                    blurRadius: 5.0,
+                    color: Colors.black,
+                    offset: Offset(1, 3))
+              ] // Make rounded corner of border
+          ),
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: Text(
+                  'Câu ${widget.examQuestions.questions.indexOf(question) + 1}:  ${question.content}',
+                  style: TextStyle(fontSize: 15),
+                ),
+              ),
+              if (question.image != null) ...[Image.network(question.image ?? '')]
+              else Padding(
+                padding: const EdgeInsets.fromLTRB(4, 0, 4, 4),
+                child: getImage(question),
+              )
+            ],
+          ),
+        ));
+  }
 
+  buildAnswers(Question question) {
+    List<Widget> list = <Widget>[];
     list.add(SizedBox(
       height: 20,
     ));
-
     list.addAll((question.answers.map(
           (e) => Container(
         padding: const EdgeInsets.fromLTRB(10.0, 2.0, 10.0, 2.0),
@@ -276,6 +295,10 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
             )),
       ),
     )));
+
+    list.add(SizedBox(
+      height: 100,
+    ));
 
     return list;
   }
@@ -359,4 +382,29 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
               widget.examQuestions.notSelectedQuestions,
             )));
   }
+
+  Widget getImage(Question question) {
+    return FutureBuilder<String>(
+      future: StorageApi.getImageUrl(
+          typeQuestion: question.type,
+          idQuestion: question.id),
+      builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          print('-------------------------------ko ngon--1--');
+          return const SizedBox();
+        } else if (snapshot.hasData) {
+          print('------------------------------ok ngon------------');
+          return Image(image: NetworkImage(snapshot.data!));
+        } else if (snapshot.hasError) {
+          print('-------------------------------ko ngon---2-');
+          print(snapshot.error.toString());
+          return const SizedBox();
+        } else {
+          print('-------------------------------ko ngon--3--');
+          return const SizedBox();
+        }
+      },
+    );
+  }
+
 }

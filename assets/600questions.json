@@ -2743,5 +2743,3911 @@
         "content": "Biển 2."
       }
     ]
+  },
+
+  {
+    "id": 416,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào chỉ dẫn nơi bắt đầu đoạn đường dành cho người đi bộ?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây báo hiệu gần đến đoạn đường thường có trẻ em đi ngang qua?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": " Cả 3 biển."
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển nào dưới đây người tham gia giao thông cần phải điều chỉnh tốc độ xe chạy cho thích hợp, đề phòng gió ngang thổi mạnh gây lật xe?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây là biển \"Dốc xuống nguy hiểm\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào sau đây là biển \"Dốc lên nguy hiểm\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên phải khi đường cong vòng sang trái."
+      },
+      {
+        "id": 2,
+        "content": "Chỗ ngoặt nguy hiểm có nguy cơ lật xe bên trái khi đường cong vòng sang phải."
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo trước đoạn đường có gió ngang"
+      },
+      {
+        "id": 2,
+        "content": "Báo trước đoạn đường trơn trượt."
+      },
+      {
+        "id": 3,
+        "content": "Báo trước sắp đến bến phà."
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo hiệu đường có ổ gà , lồi lõm."
+      },
+      {
+        "id": 2,
+        "content": "Báo hiệu đường có gồ giảm tốc phía trước."
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo hiệu đường có ổ gà , lồi lõm."
+      },
+      {
+        "id": 2,
+        "content": "Báo hiệu đường có gồ giảm tốc phía trước."
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo dưới đây có ý nghĩa gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường."
+      },
+      {
+        "id": 2,
+        "content": "Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm."
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường."
+      },
+      {
+        "id": 2,
+        "content": "Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm."
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để báo trước gần tới đoạn đường có hiện tượng đất đá từ trên ta luy dương sụt lở bất ngờ gây nguy hiểm cho xe cộ và người đi đường."
+      },
+      {
+        "id": 2,
+        "content": "Để báo trước nơi có kết cấu mặt đường rời rạc, khi phương tiện đi qua, làm cho các viên đá, sỏi văng lên gây nguy hiểm và mất an toàn cho người và phương tiện tham gia giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Để cảnh báo những đoạn nền đường yếu, đoạn đường đang theo dõi lún mà việc vận hành xe ở tốc độ cao có thể gây nguy hiểm."
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển báo này người lái xe phải xử lý thế nào?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi chậm, quan sát và dừng lại nếu gặp gia súc trên đường."
+      },
+      {
+        "id": 2,
+        "content": "Bấm còi to để gia súc tránh đường và nhanh chóng di chuyển qua đoạn đường có gia súc."
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo hiệu khu vực nguy hiểm thường xuyên có sét đánh."
+      },
+      {
+        "id": 2,
+        "content": "Báo hiệu khu vực có đường dây điện cắt ngang phía trên tuyến đường."
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu các phương tiện phải đi đúng làn đường quy định và tuân thủ tốc độ tối đa cho phép",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": ". Cả hai biển."
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu các phương tiện phải tuân thủ tốc độ tối đa cho phép trên từng làn đường",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường dành cho xe ô tô\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Hết đoạn đường dành cho xe ô tô\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp biển nào thì các phương tiện không được đi vào, trừ ô tô và mô tô?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ hướng đi phải theo."
+      },
+      {
+        "id": 2,
+        "content": "Biển báo hiệu cho người lái xe biết số lượng làn đường trên mặt đường và hướng đi trên mỗi làn đường phải theo."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ hướng đi phải theo."
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào (đặt trước ngã ba, ngã tư) cho phép xe được rẽ sang hướng khác?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Hướng đi thẳng phải theo\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường một chiều\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "type": 6,
+    "vital": false,
+    "content": "Trong các biển dưới đây biển nào là biển \"Hết tốc độ tối đa cho phép\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "type": 6,
+    "vital": false,
+    "content": "Hiệu lực của biển \"Tốc độ tối đa cho phép\" hết tác dụng khi gặp biển nào dưới đây?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và 2."
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "type": 6,
+    "vital": false,
+    "content": "Trong các biển dưới đây biển nào là biển \"Hết tốc độ tối thiểu\"?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây báo hiệu hết cấm vượt?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "type": 6,
+    "vital": false,
+    "content": "Trong các biển dưới đây biển nào là biển \"Hết mọi lệnh cấm\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cho phép được quay đầu xe đi theo hướng ngược lại khi đặt biển trước ngã ba, ngã tư?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": " Không biển nào."
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào không cho phép rẽ phải?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "không biển nào."
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "type": 6,
+    "vital": false,
+    "content": "Khi đến chỗ giao nhau, gặp biển nào thì người lái xe không được cho xe đi thẳng, phải rẽ sang hướng khác?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào cho phép quay đầu xe?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào chỉ dẫn tên đường trên các tuyến đường đối ngoại?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      },
+      {
+        "id": 4,
+        "content": "Biển 1 và 2."
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "type": 6,
+    "vital": false,
+    "content": "Biển số 1 có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Biển chỉ dẫn hết cấm đỗ xe theo giờ trong khu vực."
+      },
+      {
+        "id": 2,
+        "content": "Biển chỉ dẫn hết hiệu lực khu vực đỗ xe trên các tuyến đường đối ngoại."
+      },
+      {
+        "id": 3,
+        "content": "Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại"
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "type": 6,
+    "vital": false,
+    "content": "Biển số 3 có ý nghĩa gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển chỉ dẫn khu vực cấm đỗ xe trên các tuyến đường đối ngoại."
+      },
+      {
+        "id": 2,
+        "content": "Biển chỉ dẫn khu vực đỗ xe trên các tuyến đường đối ngoại."
+      },
+      {
+        "id": 3,
+        "content": "Biển hạn chế tốc độ tối đa trong khu vực."
+      },
+      {
+        "id": 4,
+        "content": "Biển chỉ dẫn hết hiệu lực khu vực cấm đỗ xe theo giờ trên các tuyến đường đối ngoại."
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Đường phía trước có làn đường dành cho ô tô khách",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Rẽ ra đường có làn đường dành cho ô tô khách",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào đặt trên đường chính trước khi đến nơi đường giao nhau để rẽ vào đường cụt?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Cả ba biển."
+      },
+      {
+        "id": 3,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào chỉ dẫn cho người đi bộ sử dụng cầu vượt qua đường?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      },
+      {
+        "id": 4,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào chỉ dẫn cho người đi bộ sử dụng hầm chui qua đường?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai biển."
+      },
+      {
+        "id": 4,
+        "content": "Không biển nào."
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Nơi đỗ xe dành cho người khuyết tật\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 457,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển báo này, người lái xe phải đỗ xe như thế nào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đỗ xe hoàn toàn trên hè phố."
+      },
+      {
+        "id": 2,
+        "content": "Đỗ xe hoàn toàn dưới lòng đường."
+      },
+      {
+        "id": 3,
+        "content": "Đỗ từ 1/2 thân xe trở lên trên hè phố."
+      }
+    ]
+  },
+  {
+    "id": 458,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển báo này, người tham gia giao thông phải xử lý như thế nào?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dừng xe tại khu vực có trạm Cảnh sát giao thông."
+      },
+      {
+        "id": 2,
+        "content": "Tiếp tục lưu thông với tốc độ bình thường."
+      },
+      {
+        "id": 3,
+        "content": "Phải giảm tốc độ đến mức an toàn và không được vượt khi đi qua khu vực này."
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "type": 6,
+    "vital": false,
+    "content": "Gặp biển báo dưới đây, người lái xe có bắt buộc phải chạy vòng theo đảo an toàn theo hướng mũi tên khi muốn chuyển hướng hay không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bắt buộc."
+      },
+      {
+        "id": 2,
+        "content": "Không bắt buộc."
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào dưới đây chỉ dẫn địa giới hành chính giữa các thành phố, tỉnh, huyện?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 461,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Cầu vượt liên thông\"?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 2 và 3"
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba biển."
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "type": 6,
+    "vital": false,
+    "content": "Biển số 1 có ý nghĩa gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi thẳng hoặc rẽ trái trên cầu vượt."
+      },
+      {
+        "id": 2,
+        "content": "Đi thẳng hoặc rẽ phải trên cầu vượt."
+      },
+      {
+        "id": 3,
+        "content": "Báo hiệu cầu vượt liên thông"
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu \"Tuyến đường cầu vượt cắt qua\"?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2 và 3."
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "type": 6,
+    "vital": false,
+    "content": "Biển báo dưới đây có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ dẫn khoảng cách đến làn đường cứu nạn (làn thoát xe khẩn cấp)."
+      },
+      {
+        "id": 2,
+        "content": "Báo hiệu đường cụt phía trước."
+      },
+      {
+        "id": 3,
+        "content": "Báo hiệu nút giao gần nhất phía trước."
+      },
+      {
+        "id": 4,
+        "content": "Báo hiệu trạm dừng nghỉ phía trước.."
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "type": 6,
+    "vital": false,
+    "content": "Tại đoạn đường có biển \"Làn đường dành riêng cho từng loại xe\" dưới đây, các phương tiện có được phép chuyển sang làn khác để đi theo hành trình mong muốn khi đến gần nơi đường bộ giao nhau hay không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép chuyển sang làn khác."
+      },
+      {
+        "id": 2,
+        "content": "Không được phép chuyển sang làn khác, chỉ được đi trong làn quy định theo biển."
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "type": 6,
+    "vital": false,
+    "content": "Tại đoạn đường có cắm biển dưới đây, xe tải và xe khách có được phép đi vào không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có.."
+      },
+      {
+        "id": 2,
+        "content": "Không."
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "type": 6,
+    "vital": false,
+    "content": "Tại đoạn đường có cắm biển dưới đây, xe tải và xe khách có được phép đi vào không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có."
+      },
+      {
+        "id": 2,
+        "content": "Không."
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "type": 6,
+    "vital": false,
+    "content": "Biển nào báo hiệu kết thúc đường cao tốc?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ dẫn sắp đến vị trí nhập làn xe."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ dẫn vị trí nhập làn xe cách 250 m."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ dẫn vị trí nhập làn cách trạm thu phí 250 m."
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bắt đầu đường cao tốc."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ dẫn địa giới đường cao tốc, chiều dài đường cao tốc."
+      },
+      {
+        "id": 3,
+        "content": "Tên và ký hiệu đường cao tốc, giá trị hạn chế tốc độ tối đa và tối thiểu."
+      },
+      {
+        "id": 4,
+        "content": "Cả ý 1 và ý 3."
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "type": 6,
+    "vital": false,
+    "content": "Ý nghĩa các biểu tượng ghi trên biển chỉ dẫn là gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xăng dầu, ăn uống, thông tin, sửa chữa xe."
+      },
+      {
+        "id": 2,
+        "content": "Xăng dầu, ăn uống, nhà nghỉ, sửa chữa xe."
+      },
+      {
+        "id": 3,
+        "content": "Xăng dầu, ăn uống, cấp cứu, sửa chữa xe."
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "type": 6,
+    "vital": false,
+    "content": "Biển này có ý nghĩa gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ dẫn đến trạm kiểm tra tải trọng xe."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ dẫn hướng rẽ vào nơi đặt trạm kiểm tra tải trọng xe."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ dẫn khoảng cách đến trạm kiểm tra tải trọng xe cách 750 m."
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "type": 6,
+    "vital": false,
+    "content": "Trên đường cao tốc, gặp biển nào thì người lái xe đi theo hướng bên trái để tránh chướng ngại vật?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "type": 6,
+    "vital": false,
+    "content": "Trên đường cao tốc, gặp biển nào thì người lái xe đi theo hướng bên phải để tránh chướng ngại vật?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "type": 6,
+    "vital": false,
+    "content": "Trên đường cao tốc, gặp biển nào thì người lái xe đi được cả hai hướng (bên trái hoặc bên phải) để tránh chướng ngại vật?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1."
+      },
+      {
+        "id": 2,
+        "content": "Biển 2."
+      },
+      {
+        "id": 3,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "type": 6,
+    "vital": false,
+    "content": "Trên đường cao tốc, gặp biển nào người lái xe phải chú ý đổi hướng đi khi sắp vào đường cong nguy hiểm?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Biển 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Biển 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Biển 2."
+      },
+      {
+        "id": 4,
+        "content": "Biển 3."
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "type": 6,
+    "vital": false,
+    "content": "Vạch mũi tên chỉ hướng trên mặt đường nào dưới đây cho phép xe chỉ được đi thẳng và rẽ phải?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vạch 1."
+      },
+      {
+        "id": 2,
+        "content": "Vạch 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Vạch 3."
+      },
+      {
+        "id": 4,
+        "content": "Vạch 1 và 2."
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "type": 6,
+    "vital": false,
+    "content": "Vạch kẻ đường nào dưới đây là vạch phân chia các làn xe cùng chiều?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vạch 1."
+      },
+      {
+        "id": 2,
+        "content": "Vạch 2"
+      },
+      {
+        "id": 3,
+        "content": "Vạch 3."
+      },
+      {
+        "id": 4,
+        "content": "Vạch 1 và 2."
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "type": 6,
+    "vital": false,
+    "content": "Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường), xe không được lấn làn, không được đè lên vạch?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vạch 1."
+      },
+      {
+        "id": 2,
+        "content": "Vạch 2"
+      },
+      {
+        "id": 3,
+        "content": "Vạch 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả 3 vạch."
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "type": 6,
+    "vital": false,
+    "content": "Vạch kẻ đường nào dưới đây là vạch phân chia hai chiều xe chạy (vạch tim đường)?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vạch 1."
+      },
+      {
+        "id": 2,
+        "content": "Vạch 2"
+      },
+      {
+        "id": 3,
+        "content": "Vạch 3."
+      },
+      {
+        "id": 4,
+        "content": ". Vạch 1 và 3."
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "type": 6,
+    "vital": false,
+    "content": "Các vạch dưới đây có tác dụng gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phân chia hai chiều xe chạy ngược chiều nhau."
+      },
+      {
+        "id": 2,
+        "content": "Phân chia các làn xe chạy cùng chiề"
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "type": 6,
+    "vital": false,
+    "content": "Các vạch dưới đây có tác dụng gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phân chia hai chiều xe chạy ngược chiều nhau."
+      },
+      {
+        "id": 2,
+        "content": "Phân chia các làn xe chạy cùng chiều nhau."
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "type": 6,
+    "vital": false,
+    "content": "Khi gặp vạch kẻ đường nào các xe được phép đè vạch?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vạch 1."
+      },
+      {
+        "id": 2,
+        "content": "Vạch 2."
+      },
+      {
+        "id": 3,
+        "content": "Vạch 3."
+      },
+      {
+        "id": 4,
+        "content": "Vạch 1 và vạch 3."
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "type": 6,
+    "vital": false,
+    "content": "Vạch dưới đây có tác dụng gì?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Để xác định làn đường."
+      },
+      {
+        "id": 2,
+        "content": "Báo hiệu người lái xe chỉ được phép đi thẳng."
+      },
+      {
+        "id": 3,
+        "content": " Dùng để xác định khoảng cách giữa các phương tiện trên đường."
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "type": 6,
+    "vital": false,
+    "content": "Vạch dưới đây có ý nghĩa gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo cho người điều khiển không được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông."
+      },
+      {
+        "id": 2,
+        "content": "Báo hiệu sắp đến chỗ có bố trí vạch đi bộ qua đường."
+      },
+      {
+        "id": 3,
+        "content": "Dùng để xác định khoảng cách giữa các phương tiện trên đường."
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "type": 6,
+    "vital": false,
+    "content": "Vạch dưới đây có ý nghĩa gì?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vị trí dừng xe của các phương tiện vận tải hành khách công cộng."
+      },
+      {
+        "id": 2,
+        "content": "Báo cho người điều khiển được dừng phương tiện trong phạm vi phần mặt đường có bố trí vạch để tránh ùn tắc giao thông."
+      },
+      {
+        "id": 3,
+        "content": "Dùng để xác định vị trí giữa các phương tiện trên đường"
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải, xe khách, xe con, mô tô"
+      },
+      {
+        "id": 2,
+        "content": "Xe tải, mô tô, xe khách, xe con."
+      },
+      {
+        "id": 3,
+        "content": "Xe khách, xe tải, xe con, mô tô."
+      },
+      {
+        "id": 4,
+        "content": "Mô tô, xe khách, xe tải, xe con."
+      }
+    ]
+  },
+  {
+    "id": 488,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe công an, xe con, xe tải, xe khách"
+      },
+      {
+        "id": 2,
+        "content": "Xe công an, xe khách, xe con, xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Xe công an, xe tải, xe khách, xe con."
+      },
+      {
+        "id": 4,
+        "content": "Xe con, xe công an, xe tải, xe khách."
+      }
+    ]
+  },
+  {
+    "id": 489,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng quy tắc giao thông",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải, xe công an, xe khách, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe công an, xe khách, xe con, xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Xe công an, xe con, xe tải, xe khách."
+      },
+      {
+        "id": 4,
+        "content": "Xe công an, xe tải, xe khách, xe con."
+      }
+    ]
+  },
+  {
+    "id": 490,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải, xe con, mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe tải, mô tô."
+      },
+      {
+        "id": 3,
+        "content": " Mô tô, xe con, xe tải."
+      },
+      {
+        "id": 4,
+        "content": "Xe con, mô tô, xe tải."
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "type": 7,
+    "vital": false,
+    "content": "Trường hợp này xe nào được quyền đi trước?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe con."
+      }
+    ]
+  },
+  {
+    "id": 493,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con (A), xe cứu thương, xe con (B)."
+      },
+      {
+        "id": 2,
+        "content": "Xe cứu thương, xe con (B), xe con (A)"
+      },
+      {
+        "id": 3,
+        "content": "Xe con (B), xe con (A), xe cứu thương."
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe cứu thương, xe cứu hỏa, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe cứu hỏa, xe cứu thương, xe con."
+      },
+      {
+        "id": 3,
+        "content": "Xe cứu thương, xe con, xe cứu hỏa."
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được quyền đi trước trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe cứu thương."
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được quyền đi trước trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Xe khách."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Xe con."
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được quyền đi trước trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe công an."
+      },
+      {
+        "id": 2,
+        "content": "Xe chữa cháy."
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "type": 7,
+    "vital": false,
+    "content": "Theo tín hiệu đèn, xe nào được phép đi?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con và xe khách."
+      },
+      {
+        "id": 2,
+        "content": " Mô tô."
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "type": 7,
+    "vital": false,
+    "content": "Theo tín hiệu đèn, xe nào được quyền đi là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách, mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe tải."
+      },
+      {
+        "id": 3,
+        "content": ". Xe tải, mô tô."
+      }
+    ]
+  },
+  {
+    "id": 501,
+    "type": 7,
+    "vital": false,
+    "content": "Trong trường hợp này xe nào được quyền đi trước?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe công an."
+      },
+      {
+        "id": 2,
+        "content": "Xe quân sự."
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "type": 7,
+    "vital": false,
+    "content": "Theo tín hiệu đèn, xe tải đi theo hướng nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hướng 2, 3, 4."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ hướng 1."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 1 và 2."
+      },
+      {
+        "id": 4,
+        "content": "Hướng 3 và 4."
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Xe khách, xe tải, mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải, xe con, mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Xe khách, xe con, mô tô."
+      }
+    ]
+  },
+  {
+    "id": 504,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách, xe tải, mô tô, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe khách, xe tải, mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Mô tô, xe tải, xe khách, xe con."
+      },
+      {
+        "id": 4,
+        "content": "Mô tô, xe tải, xe con, xe khách."
+      }
+    ]
+  },
+  {
+    "id": 505,
+    "type": 7,
+    "vital": false,
+    "content": "Trong trường hợp này xe nào đỗ vi phạm quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải."
+      },
+      {
+        "id": 2,
+        "content": "Xe con và mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Cả ba xe."
+      },
+      {
+        "id": 4,
+        "content": "Xe con và xe tải."
+      }
+    ]
+  },
+  {
+    "id": 506,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được quyền đi trước?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải."
+      },
+      {
+        "id": 2,
+        "content": "Xe con (B)."
+      },
+      {
+        "id": 3,
+        "content": "Xe con (A)"
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, những hướng nào xe gắn máy đi được?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả ba hướng."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ hướng 1 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ hướng 1."
+      }
+    ]
+  },
+  {
+    "id": 508,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào đỗ vi phạm quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả hai xe."
+      },
+      {
+        "id": 2,
+        "content": "Không xe nào vi phạm."
+      },
+      {
+        "id": 3,
+        "content": "Chỉ xe mô tô vi phạm."
+      },
+      {
+        "id": 4,
+        "content": "Chỉ xe tải vi phạm."
+      }
+    ]
+  },
+  {
+    "id": 509,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào đỗ vi phạm quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ xe tải."
+      },
+      {
+        "id": 3,
+        "content": ". Cả ba xe."
+      },
+      {
+        "id": 4,
+        "content": "Chỉ mô tô và xe tải."
+      }
+    ]
+  },
+  {
+    "id": 510,
+    "type": 7,
+    "vital": false,
+    "content": "Xe tải kéo mô tô ba bánh như hình này có đúng quy tắc giao thông không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đúng."
+      },
+      {
+        "id": 2,
+        "content": "Không đúng."
+      }
+    ]
+  },
+  {
+    "id": 511,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, hướng nào xe không được phép đi?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hướng 2 và 5."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ hướng 1."
+      }
+    ]
+  },
+  {
+    "id": 512,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào vượt đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hướng 1 và 2."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 3."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 1 và 4."
+      },
+      {
+        "id": 4,
+        "content": "Hướng 2 và 3."
+      }
+    ]
+  },
+  {
+    "id": 513,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào vượt đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả 2 xe đều đúng."
+      },
+      {
+        "id": 2,
+        "content": "Xe con."
+      },
+      {
+        "id": 3,
+        "content": "Xe khách."
+      }
+    ]
+  },
+  {
+    "id": 514,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, gặp biển hướng đi phải theo đặt trước ngã tư, những hướng nào xe được phép đi?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hướng 2 và 3."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 1, 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 1 và 3."
+      }
+    ]
+  },
+  {
+    "id": 515,
+    "type": 7,
+    "vital": false,
+    "content": "Xe kéo nhau như hình này có vi phạm quy tắc giao thông không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không."
+      },
+      {
+        "id": 2,
+        "content": "Vi phạm."
+      }
+    ]
+  },
+  {
+    "id": 516,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      }
+    ]
+  },
+  {
+    "id": 517,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được quyền đi trước trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe mô tô."
+      }
+    ]
+  },
+  {
+    "id": 518,
+    "type": 7,
+    "vital": false,
+    "content": "Xe kéo nhau trong trường hợp này đúng quy định không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Không đúng."
+      },
+      {
+        "id": 2,
+        "content": "Đúng."
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, những hướng nào ô tô con được phép đi?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hướng 1."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 1, 3 và 4."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 2, 3 và 4."
+      },
+      {
+        "id": 4,
+        "content": "Cả bốn hướng."
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con (A), mô tô, xe con (B), xe đạp."
+      },
+      {
+        "id": 2,
+        "content": "Xe con (B), xe đạp, mô tô, xe con (A)."
+      },
+      {
+        "id": 3,
+        "content": "Xe con (A), xe con (B), mô tô + xe đạp."
+      },
+      {
+        "id": 4,
+        "content": "Mô tô + xe đạp, xe con (A), xe con (B)."
+      }
+    ]
+  },
+  {
+    "id": 521,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, những hướng nào xe tải được phép đi?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ hướng 1."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 1, 3 và 4."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 1, 2 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Cả bốn hướng."
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "type": 7,
+    "vital": false,
+    "content": "Những hướng nào xe tải được phép đi?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả ba hướng."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 2 và 3."
+      }
+    ]
+  },
+  {
+    "id": 523,
+    "type": 7,
+    "vital": false,
+    "content": "Những hướng nào ô tô tải được phép đi?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ hướng 1."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 1 và 4."
+      },
+      {
+        "id": 3,
+        "content": ". Hướng 1 và 5."
+      },
+      {
+        "id": 4,
+        "content": "Hướng 1, 4 và 5."
+      }
+    ]
+  },
+  {
+    "id": 524,
+    "type": 7,
+    "vital": false,
+    "content": "Những hướng nào ô tô tải được phép đi?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Cả bốn hướng."
+      },
+      {
+        "id": 2,
+        "content": " Trừ hướng 2."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 2, 3 và 4."
+      },
+      {
+        "id": 4,
+        "content": " Trừ hướng 4."
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được quyền đi trước trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe con."
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "type": 7,
+    "vital": false,
+    "content": "Ô tô con đi theo chiều mũi tên có vi phạm quy tắc giao thông không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không vi phạm."
+      },
+      {
+        "id": 2,
+        "content": "Vi phạm."
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách."
+      },
+      {
+        "id": 2,
+        "content": "Mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Xe con."
+      },
+      {
+        "id": 4,
+        "content": "Xe con và mô tô."
+      }
+    ]
+  },
+  {
+    "id": 528,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Các xe ở phía tay phải và tay trái của người điều khiển được phép đi thẳng."
+      },
+      {
+        "id": 2,
+        "content": "Cho phép các xe ở mọi hướng được phép rẽ phải."
+      },
+      {
+        "id": 3,
+        "content": "Tất cả các xe phải dừng lại trước ngã tư, trừ những xe đã ở trong ngã tư được phép tiếp tục đi."
+      }
+    ]
+  },
+  {
+    "id": 529,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, xe nào được phép đi?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Mô tô, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Mô tô, xe tải."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba xe."
+      }
+    ]
+  },
+  {
+    "id": 530,
+    "type": 7,
+    "vital": false,
+    "content": "Xe con vượt xe tải như trường hợp này có đúng không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đúng."
+      },
+      {
+        "id": 2,
+        "content": "Không đúng."
+      }
+    ]
+  },
+  {
+    "id": 531,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào vượt đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải."
+      },
+      {
+        "id": 2,
+        "content": "Cả hai xe."
+      },
+      {
+        "id": 3,
+        "content": "Xe con."
+      }
+    ]
+  },
+  {
+    "id": 532,
+    "type": 7,
+    "vital": false,
+    "content": "Đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe chữa cháy."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai xe."
+      }
+    ]
+  },
+  {
+    "id": 533,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách, xe tải, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe tải, xe khách."
+      },
+      {
+        "id": 3,
+        "content": "Xe tải, xe khách, xe con."
+      }
+    ]
+  },
+  {
+    "id": 534,
+    "type": 7,
+    "vital": false,
+    "content": "Thứ tự các xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách, xe tải, xe con."
+      },
+      {
+        "id": 2,
+        "content": " Xe tải, xe khách, xe con."
+      },
+      {
+        "id": 3,
+        "content": "Xe con, xe khách, xe tải."
+      }
+    ]
+  },
+  {
+    "id": 535,
+    "type": 7,
+    "vital": false,
+    "content": "Những hướng nào ô tô tải được phép đi?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả bốn hướng."
+      },
+      {
+        "id": 2,
+        "content": "Chỉ hướng 1 và 2."
+      },
+      {
+        "id": 3,
+        "content": "Trừ hướng 4."
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "type": 7,
+    "vital": false,
+    "content": "Theo hướng mũi tên, thứ tự các xe đi như thế nào là đúng?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe công an, xe con, xe tải, xe khách."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe khách và xe công an, xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Xe công an, xe con, xe khách, xe tải."
+      },
+      {
+        "id": 4,
+        "content": "Xe con, xe tải, xe khách, xe công an."
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "type": 7,
+    "vital": false,
+    "content": "Những hướng nào ô tô tải được phép đi?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cả bốn hướng."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 1, 2 và 3."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 1 và 4."
+      },
+      {
+        "id": 4,
+        "content": " Hướng 1, 3 và 4."
+      }
+    ]
+  },
+  {
+    "id": 538,
+    "type": 7,
+    "vital": false,
+    "content": "Trong hình dưới đây, xe nào chấp hành đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ xe khách, mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Tất cả các loại xe trên."
+      },
+      {
+        "id": 3,
+        "content": "Không xe nào chấp hành đúng quy tắc giao thông."
+      }
+    ]
+  },
+  {
+    "id": 539,
+    "type": 7,
+    "vital": false,
+    "content": "Cả ba hướng.",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "1. Cả ba hướng."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 1 và 2."
+      },
+      {
+        "id": 3,
+        "content": "Hướng 1 và 3."
+      },
+      {
+        "id": 4,
+        "content": "Hướng 2 và 3."
+      }
+    ]
+  },
+  {
+    "id": 540,
+    "type": 7,
+    "vital": false,
+    "content": "Trong trường hợp này, thứ tự xe đi như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe công an, xe quân sự, xe con + mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe quân sự, xe công an, xe con + mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Xe mô tô + xe con, xe quân sự, xe công an."
+      }
+    ]
+  },
+  {
+    "id": 541,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe A."
+      },
+      {
+        "id": 2,
+        "content": "Xe B."
+      }
+    ]
+  },
+  {
+    "id": 542,
+    "type": 7,
+    "vital": false,
+    "content": "Xe con quay đầu đi ngược lại như hình vẽ dưới có vi phạm quy tắc giao thông không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không vi phạm."
+      },
+      {
+        "id": 2,
+        "content": "Vi phạm."
+      }
+    ]
+  },
+  {
+    "id": 543,
+    "type": 7,
+    "vital": false,
+    "content": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con (E), mô tô (C)."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải (A), mô tô (D)."
+      },
+      {
+        "id": 3,
+        "content": "Xe khách (B), mô tô (C)."
+      },
+      {
+        "id": 4,
+        "content": "Xe khách (B), mô tô (D)."
+      }
+    ]
+  },
+  {
+    "id": 544,
+    "type": 7,
+    "vital": false,
+    "content": "Để điều khiển cho xe đi thẳng, người lái xe phải làm gì là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nhường xe con rẽ trái trước."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải (A), mô tô (D)."
+      }
+    ]
+  },
+  {
+    "id": 545,
+    "type": 7,
+    "vital": false,
+    "content": "Người lái xe điều khiển xe chạy theo hướng nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chỉ hướng 2."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 1 và 2."
+      },
+      {
+        "id": 3,
+        "content": "Tất cả các hướng trừ hướng 3."
+      },
+      {
+        "id": 4,
+        "content": "Tất cả các hướng trừ hướng 4."
+      }
+    ]
+  },
+  {
+    "id": 546,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con (A)."
+      },
+      {
+        "id": 2,
+        "content": "Xe con (B)."
+      }
+    ]
+  },
+  {
+    "id": 547,
+    "type": 7,
+    "vital": false,
+    "content": "Người lái xe điều khiển xe rẽ trái như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Rẽ trái ngay trước xe buýt."
+      },
+      {
+        "id": 2,
+        "content": "Rẽ trái trước xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Nhường đường cho xe buýt và xe tải."
+      }
+    ]
+  },
+  {
+    "id": 548,
+    "type": 7,
+    "vital": false,
+    "content": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con (B), mô tô (C)."
+      },
+      {
+        "id": 2,
+        "content": "Xe con (A), mô tô (C)."
+      },
+      {
+        "id": 3,
+        "content": "3. Xe con (E), mô tô (D)."
+      },
+      {
+        "id": 4,
+        "content": "Tất cả các loại xe trên."
+      }
+    ]
+  },
+  {
+    "id": 549,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào đi trước là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe của bạn."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      }
+    ]
+  },
+  {
+    "id": 550,
+    "type": 7,
+    "vital": false,
+    "content": "Người lái xe có thể quay đầu xe như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Quay đầu theo hướng A."
+      },
+      {
+        "id": 2,
+        "content": "Quay đầu theo hướng B."
+      },
+      {
+        "id": 3,
+        "content": "Cấm quay đầu."
+      }
+    ]
+  },
+  {
+    "id": 551,
+    "type": 7,
+    "vital": false,
+    "content": "Người lái xe có thể quay đầu xe như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": " Xe con và xe tải, xe của bạn."
+      },
+      {
+        "id": 2,
+        "content": "Xe của bạn, xe tải, xe con."
+      },
+      {
+        "id": 3,
+        "content": "Xe của bạn và xe con, xe tải."
+      },
+      {
+        "id": 4,
+        "content": "Xe của bạn, xe tải + xe con."
+      }
+    ]
+  },
+  {
+    "id": 552,
+    "type": 7,
+    "vital": false,
+    "content": "Khi muốn vượt xe tải, người lái xe phải làm gì là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc cho xe chạy vượt qua."
+      },
+      {
+        "id": 2,
+        "content": "Bật tín hiệu báo hiệu bằng đèn hoặc còi, khi đủ điều kiện an toàn, tăng tốc cho xe chạy vượt qua."
+      },
+      {
+        "id": 3,
+        "content": "Đánh lái sang làn bên trái và tăng tốc cho xe chạy vượt qua."
+      }
+    ]
+  },
+  {
+    "id": 553,
+    "type": 7,
+    "vital": false,
+    "content": "Theo tín hiệu đèn, xe nào phải dừng lại là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách, mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải, mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Xe con, xe tải."
+      }
+    ]
+  },
+  {
+    "id": 554,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải."
+      },
+      {
+        "id": 2,
+        "content": "Xe khách."
+      },
+      {
+        "id": 3,
+        "content": "Xe con."
+      }
+    ]
+  },
+  {
+    "id": 555,
+    "type": 7,
+    "vital": false,
+    "content": "Người lái xe có được phép vượt xe tải để đi thẳng trong trường hợp này không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được vượt."
+      },
+      {
+        "id": 2,
+        "content": "Cấm vượt"
+      }
+    ]
+  },
+  {
+    "id": 556,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn có được phép vượt xe mô tô phía trước không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cho phép."
+      },
+      {
+        "id": 2,
+        "content": "Không được vượt."
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "type": 7,
+    "vital": false,
+    "content": "Người lái xe dừng tại vị trí nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vị trí A và B."
+      },
+      {
+        "id": 2,
+        "content": "Vị trí A và C."
+      },
+      {
+        "id": 3,
+        "content": "Vị trí A và B."
+      },
+      {
+        "id": 4,
+        "content": "Cả ba vị trí A, B, C."
+      }
+    ]
+  },
+  {
+    "id": 558,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn được dừng xe ở vị trí nào trong tình huống này?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép dừng ở vị trí A."
+      },
+      {
+        "id": 2,
+        "content": "Được phép dừng ở vị trí B."
+      },
+      {
+        "id": 3,
+        "content": " Được phép dừng ở vị trí A và B."
+      },
+      {
+        "id": 4,
+        "content": "Không được dừng."
+      }
+    ]
+  },
+  {
+    "id": 559,
+    "type": 7,
+    "vital": false,
+    "content": "Theo tín hiệu đèn của xe cơ giới, xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe ô tô con."
+      },
+      {
+        "id": 3,
+        "content": "Không xe nào vi phạm."
+      },
+      {
+        "id": 4,
+        "content": "Cả hai xe."
+      }
+    ]
+  },
+  {
+    "id": 560,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Xe con, xe tải."
+      }
+    ]
+  },
+  {
+    "id": 561,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe khách, xe con."
+      },
+      {
+        "id": 3,
+        "content": "Xe khách, xe tải."
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con, xe tải, xe khách."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải, xe khách, xe mô tô."
+      },
+      {
+        "id": 3,
+        "content": " Xe khách, xe mô tô, xe con."
+      },
+      {
+        "id": 4,
+        "content": "Cả bốn xe."
+      }
+    ]
+  },
+  {
+    "id": 563,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo hướng mũi tên, xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe khách, xe tải."
+      },
+      {
+        "id": 2,
+        "content": "Xe khách, xe con."
+      },
+      {
+        "id": 3,
+        "content": "Xe con, xe tải."
+      },
+      {
+        "id": 4,
+        "content": "Xe khách, xe tải, xe con."
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "type": 7,
+    "vital": false,
+    "content": "Trong tình huống dưới đây, để tránh xe phía trước bị hỏng đột xuất trên đường, người lái xe phải làm gì?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đánh lái sang trái cho xe vượt qua."
+      },
+      {
+        "id": 2,
+        "content": "Quan sát phía trước, phía sau, khi đủ điều kiện an toàn, bật tín hiệu bằng đèn hoặc còi rồi cho xe chạy vượt qua."
+      },
+      {
+        "id": 3,
+        "content": "Cấm vượt."
+      }
+    ]
+  },
+  {
+    "id": 565,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo hướng mũi tên, xe nào chấp hành đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải, mô tô."
+      },
+      {
+        "id": 2,
+        "content": "Xe khách, mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Xe tải, xe con."
+      },
+      {
+        "id": 4,
+        "content": " Mô tô, xe con."
+      }
+    ]
+  },
+  {
+    "id": 566,
+    "type": 7,
+    "vital": false,
+    "content": "Trong hình dưới, những xe nào vi phạm quy tắc giao thông?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con (A), xe con (B), xe tải (D)."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải (D), xe con (E), xe buýt (G)."
+      },
+      {
+        "id": 3,
+        "content": "Xe tải ( D), xe con (B)."
+      },
+      {
+        "id": 4,
+        "content": "Xe con (B), xe con (C)."
+      }
+    ]
+  },
+  {
+    "id": 567,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe của bạn, mô tô , xe con."
+      },
+      {
+        "id": 2,
+        "content": " Xe con, xe của bạn, mô tô."
+      },
+      {
+        "id": 3,
+        "content": " Mô tô, xe con, xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 568,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe của bạn, mô tô, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe của bạn, mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Mô tô, xe con, xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 569,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải dừng lại trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe của bạn."
+      },
+      {
+        "id": 3,
+        "content": "Cả hai xe."
+      }
+    ]
+  },
+  {
+    "id": 570,
+    "type": 7,
+    "vital": false,
+    "content": "Xe của bạn được đi theo hướng nào trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đi thẳng, rẽ trái."
+      },
+      {
+        "id": 2,
+        "content": "Đi thẳng, rẽ phải."
+      },
+      {
+        "id": 3,
+        "content": "Rẽ trái."
+      },
+      {
+        "id": 4,
+        "content": "Đi thẳng, rẽ phải, rẽ trái."
+      }
+    ]
+  },
+  {
+    "id": 571,
+    "type": 7,
+    "vital": false,
+    "content": "Xe của bạn được đi theo hướng nào trong trường hợp này?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chuyển sang làn đường bên phải và rẽ phải."
+      },
+      {
+        "id": 2,
+        "content": "Dừng lại trước vạch dừng và rẽ phải khi đèn xanh."
+      },
+      {
+        "id": 3,
+        "content": "Dừng lại trước vạch dừng và đi thẳng hoặc rẽ trái khi đèn xanh."
+      }
+    ]
+  },
+  {
+    "id": 572,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ, rẽ phải trước xe tải và xe đạp."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ, rẽ phải sau xe tải và xe đạp."
+      },
+      {
+        "id": 3,
+        "content": "Tăng tốc độ, rẽ phải trước xe đạp."
+      }
+    ]
+  },
+  {
+    "id": 573,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ, rẽ phải trước xe con màu xanh phía trước và người đi bộ."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ, để người đi bộ qua đường và rẽ phải trước xe con màu xanh"
+      },
+      {
+        "id": 3,
+        "content": "Giảm tốc độ, để người đi bộ qua đường và rẽ phải sau xe con màu xanh."
+      }
+    ]
+  },
+  {
+    "id": 574,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nhường đường cho xe khách và đi trước xe đạp."
+      },
+      {
+        "id": 2,
+        "content": "Nhường đường cho xe đạp và đi trước xe khách."
+      },
+      {
+        "id": 3,
+        "content": "Nhường đường cho xe đạp và xe khách."
+      }
+    ]
+  },
+  {
+    "id": 575,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 576,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe đi ngược chiều."
+      },
+      {
+        "id": 2,
+        "content": "Xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 577,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào khi lái xe ô tô vượt qua đoàn người đi xe đạp có tổ chức?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ, chuyển sang làn đường bên trái để vượt."
+      },
+      {
+        "id": 2,
+        "content": "Không được vượt những người đi xe đạp."
+      }
+    ]
+  },
+  {
+    "id": 578,
+    "type": 7,
+    "vital": false,
+    "content": "Phía trước có một xe đang lùi vào nơi đỗ, xe con phía trước đang chuyển sang làn đường bên trái, bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nếu phía sau không có xe xin vượt, chuyển sang làn đường bên trái."
+      },
+      {
+        "id": 2,
+        "content": "Nếu phía sau có xe xin vượt, thì giảm tốc độ, ở lại làn đường, dừng lại khi cần thiết."
+      },
+      {
+        "id": 3,
+        "content": "Tăng tốc độ trên làn đường của mình và vượt xe con."
+      },
+      {
+        "id": 4,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 579,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào khi xe phía trước đang lùi ra khỏi nơi đỗ?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Chuyển sang nửa đường bên trái để đi tiếp."
+      },
+      {
+        "id": 2,
+        "content": "Bấm còi, nháy đèn báo hiệu và đi tiếp."
+      },
+      {
+        "id": 3,
+        "content": "Giảm tốc độ, dừng lại nhường đường."
+      }
+    ]
+  },
+  {
+    "id": 580,
+    "type": 7,
+    "vital": false,
+    "content": "Phía trước có một xe màu xanh đang vượt xe màu vàng trên làn đường của bạn, bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phanh xe giảm tốc độ và đi sát lề đường bên phải."
+      },
+      {
+        "id": 2,
+        "content": "Bấm còi, nháy đèn báo hiệu, giữ nguyên tốc độ và đi tiếp."
+      },
+      {
+        "id": 3,
+        "content": "Phanh xe giảm tốc độ và đi sát vào lề đường bên trái."
+      }
+    ]
+  },
+  {
+    "id": 581,
+    "type": 7,
+    "vital": false,
+    "content": "Xe tải phía trước có tín hiệu xin chuyển làn đường, bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bật tín hiệu xin chuyển làn đường sang trái để vượt xe tải."
+      },
+      {
+        "id": 2,
+        "content": "Phanh xe giảm tốc độ chờ xe tải phía trước chuyển làn đường."
+      },
+      {
+        "id": 3,
+        "content": "Bấm còi báo hiệu và vượt qua xe tải trên làn đường của mình."
+      }
+    ]
+  },
+  {
+    "id": 582,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ và đi thẳng qua ngã tư."
+      },
+      {
+        "id": 2,
+        "content": "Dừng xe trước vạch dừng."
+      },
+      {
+        "id": 3,
+        "content": "Giảm tốc độ và đi thẳng qua ngã tư"
+      }
+    ]
+  },
+  {
+    "id": 583,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe của bạn, mô tô, xe đạp."
+      },
+      {
+        "id": 2,
+        "content": "Xe mô tô, xe đạp, xe của bạn."
+      },
+      {
+        "id": 3,
+        "content": "Xe đạp, xe mô tô, xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe của bạn, xe tải, xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe con, xe tải, xe của bạn."
+      },
+      {
+        "id": 3,
+        "content": "Xe tải, xe của bạn, xe con."
+      },
+      {
+        "id": 4,
+        "content": "Xe của bạn, xe con, xe tải."
+      }
+    ]
+  },
+  {
+    "id": 585,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe của bạn."
+      },
+      {
+        "id": 2,
+        "content": "Xe con."
+      }
+    ]
+  },
+  {
+    "id": 586,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào phải nhường đường trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 587,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ, đi qua vạch người đi bộ sang đường, để người đi bộ sang đường sau."
+      },
+      {
+        "id": 3,
+        "content": "Giảm tốc độ , để người đi bộ sang đường trước, sau đó cho xe đi qua vạch người đi bộ sang đường."
+      }
+    ]
+  },
+  {
+    "id": 588,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được đi trước trong trường hợp này?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 589,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con, xe tải, xe của bạn."
+      },
+      {
+        "id": 2,
+        "content": "Xe tải, xe con, xe của bạn."
+      },
+      {
+        "id": 3,
+        "content": "Xe tải, xe của bạn, xe con."
+      }
+    ]
+  },
+  {
+    "id": 590,
+    "type": 7,
+    "vital": false,
+    "content": "Bạn xử lý như thế nào trong trường hợp này?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng tốc độ cho xe lấn sang phần đường bên trái."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ cho xe lấn sang phần đường bên trái."
+      },
+      {
+        "id": 3,
+        "content": " Giảm tốc độ cho xe đi sát phần đường bên phải."
+      }
+    ]
+  },
+  {
+    "id": 591,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào được đi trước trong trường hợp này?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải."
+      },
+      {
+        "id": 2,
+        "content": "Xe của bạn."
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "type": 7,
+    "vital": false,
+    "content": "Xe nào dừng đúng theo quy tắc giao thông?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe con."
+      },
+      {
+        "id": 2,
+        "content": "Xe mô tô."
+      },
+      {
+        "id": 3,
+        "content": "Cả 2 xe đều đúng."
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "type": 7,
+    "vital": false,
+    "content": "Các xe đi theo thứ tự nào là đúng quy tắc giao thông đường bộ?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Xe tải, xe đạp, xe của bạn."
+      },
+      {
+        "id": 2,
+        "content": "Xe của bạn, xe đạp, xe tải."
+      },
+      {
+        "id": 3,
+        "content": "Xe của bạn, xe tải, xe đạp."
+      }
+    ]
+  },
+  {
+    "id": 594,
+    "type": 7,
+    "vital": false,
+    "content": "Để điều khiển xe rẽ trái, bạn chọn hướng đi nào dưới đây?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hướng 1."
+      },
+      {
+        "id": 2,
+        "content": "Hướng 2."
+      },
+      {
+        "id": 3,
+        "content": "Cả 2 hướng đều được."
+      }
+    ]
+  },
+  {
+    "id": 595,
+    "type": 7,
+    "vital": false,
+    "content": "Khi gặp xe ngược chiều bật đèn pha trong tình huống dưới dây, bạn xử lý như thế nào?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bật đèn chiếu xa, tăng tốc độ vượt xe cùng chiều."
+      },
+      {
+        "id": 2,
+        "content": "Giữ nguyên đền chiếu gần, giảm tốc độ, đi sau xe phía trước."
+      },
+      {
+        "id": 3,
+        "content": "Giữ nguyên đèn chiếu gần, tăng tốc độ vượt xe cùng chiều."
+      }
+    ]
+  },
+  {
+    "id": 596,
+    "type": 7,
+    "vital": false,
+    "content": "Xe của bạn đang di chuyển gần đến khu vực giao cắt với đường sắt, khi rào chắn đang dịch chuyển, bạn điều khiển xe như thế nào là đúng quy tắc giao thông?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Quan sát nếu thấy không có tàu thì tăng tốc cho xe vượt qua đường sắt."
+      },
+      {
+        "id": 2,
+        "content": "Dừng lại trước rào chắn một khoảng cách an toàn."
+      },
+      {
+        "id": 3,
+        "content": "Ra tín hiệu, yêu cầu người gác chắn tàu kéo chậm Barie để xe bạn qua."
+      }
+    ]
+  },
+  {
+    "id": 597,
+    "type": 7,
+    "vital": false,
+    "content": "Trong tình huống dưới đây, xe con màu đỏ nhập làn đường cao tốc theo hướng mũi tên là đúng hay sai?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đúng."
+      },
+      {
+        "id": 2,
+        "content": "Sai."
+      }
+    ]
+  },
+  {
+    "id": 598,
+    "type": 7,
+    "vital": false,
+    "content": "Trong tình huống dưới đây, xe con màu đỏ có được phép vượt khi xe con màu xanh đang vượt xe tải hay không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được vượt."
+      },
+      {
+        "id": 2,
+        "content": "Không được vượt."
+      }
+    ]
+  },
+  {
+    "id": 599,
+    "type": 7,
+    "vital": false,
+    "content": "Trong tình huống dưới đây, xe con màu vàng vượt xe con màu đỏ là đúng quy tắc giao thông hay không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đúng."
+      },
+      {
+        "id": 2,
+        "content": "Không đúng."
+      }
+    ]
+  },
+  {
+    "id": 600,
+    "type": 7,
+    "vital": false,
+    "content": "Trong tình huống dưới đây, xe đầu kéo kéo rơ moóc (xe container) đang rẽ phải, xe con màu xanh và xe máy phía sau xe container đi như thế nào để đảm bảo an toàn?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Vượt về phía bên phải để đi tiếp."
+      },
+      {
+        "id": 2,
+        "content": "Giảm tốc độ chờ xe container rẽ xong rồi tiếp tục đi."
+      },
+      {
+        "id": 3,
+        "content": "Vượt về phía bên trái để đi tiếp."
+      }
+    ]
   }
 ]
