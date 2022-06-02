@@ -4381,7 +4381,7 @@
   {
     "id": 199,
     "type": 3,
-    "vital": false,
+    "vital": true,
     "content": "Người lái xe cố tình không phân biệt làn đường, vạch phân làn, phóng nhanh, vượt ẩu, vượt đèn đỏ, đi vào đường cấm, đường một chiều được coi là hành vi nào trong các hành vi dưới đây?",
     "correctAnswerId": 2,
     "answers": [
@@ -4608,7 +4608,7 @@
   {
     "id": 210,
     "type": 3,
-    "vital": false,
+    "vital": true,
     "content": "Khi xảy ra tai nạn giao thông, những hành vi nào dưới đây bị nghiêm cấm?",
     "correctAnswerId": 3,
     "answers": [
@@ -4629,7 +4629,7 @@
   {
     "id": 211,
     "type": 3,
-    "vital": false,
+    "vital": true,
     "content": "Khi xảy ra tai nạn giao thông, những hành vi nào dưới đây bị nghiêm cấm?",
     "correctAnswerId": 1,
     "answers": [
@@ -4650,7 +4650,7 @@
   {
     "id": 212,
     "type": 3,
-    "vital": false,
+    "vital": true,
     "content": "Trong đoạn đường hai chiều tại khu đông dân cư đang ùn tắc, người điều khiển xe mô tô hai bánh có văn hóa giao thông sẽ lựa chọn xử lý tình huống nào dưới đây?",
     "correctAnswerId": 3,
     "answers": [
