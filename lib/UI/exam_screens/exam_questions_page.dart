@@ -235,9 +235,12 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
             children: [
               Padding(
                 padding: const EdgeInsets.all(20.0),
-                child: Text(
-                  'Câu ${widget.examQuestions.questions.indexOf(question) + 1}:  ${question.content}',
-                  style: TextStyle(fontSize: 15),
+                child: Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    'Câu ${widget.examQuestions.questions.indexOf(question) + 1}:  ${question.content}',
+                    style: TextStyle(fontSize: 15),
+                  ),
                 ),
               ),
               if (question.image != null) ...[Image.network(question.image ?? '')]

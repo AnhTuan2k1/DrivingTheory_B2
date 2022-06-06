@@ -5,7 +5,7 @@ import 'package:driving_theory_b2/UI/exam_screens/exam_questions_page.dart';
 import 'package:driving_theory_b2/UI/widget/timer_progress.dart';
 import 'package:driving_theory_b2/api/storage_api.dart';
 import 'package:driving_theory_b2/model/exam_questions.dart';
-import 'package:driving_theory_b2/model/factory_exam_questions.dart';
+import 'package:driving_theory_b2/UI/exam_screens/factory_exam_questions.dart';
 import 'package:flutter/material.dart';
 
 import '../../api/exam_questions_api.dart';
