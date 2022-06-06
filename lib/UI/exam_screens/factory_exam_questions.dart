@@ -88,51 +88,51 @@ class RandomExamData extends ExamData{
     }
     // 1 Câu hỏi về quy định về tốc độ, khoảng cách
     while(data.length < 9){
-      int x = random.nextInt(139) + 124;
+      int x = random.nextInt(139 - 123) + 124;
       if(!data.contains(x) && !vitalQuestion.contains(x))
         data.add(x);
     }
     // 1 câu hỏi về nghiệp vụ vận tải
     while(data.length < 10){
-      int x = random.nextInt(192) + 167;
+      int x = random.nextInt(192 - 166) + 167;
       if(!data.contains(x) && !vitalQuestion.contains(x))
         data.add(x);
     }
     //1 câu hỏi về văn hóa & đạo đức người lái xe
     while(data.length < 11){
-      int x = random.nextInt(213) + 193;
+      int x = random.nextInt(213 - 192) + 193;
       if(!data.contains(x) && !vitalQuestion.contains(x))
         data.add(x);
     }
     //2 câu hỏi về kỹ thuật lái xe
     while(data.length < 13){
-      int x = random.nextInt(269) + 214;
+      int x = random.nextInt(269 - 213) + 214;
       if(!data.contains(x) && !vitalQuestion.contains(x))
         data.add(x);
     }
     //1 câu hỏi về cấu tạo sữa chữa
     while(data.length < 14){
-      int x = random.nextInt(304) + 270;
+      int x = random.nextInt(304 - 270) + 270;
       if(!data.contains(x) && !vitalQuestion.contains(x))
         data.add(x);
     }
     //10 câu hỏi biển báo
     while(data.length < 24){
-      int x = random.nextInt(486) + 305;
+      int x = random.nextInt(486 - 304) + 305;
       if(!data.contains(x) && !vitalQuestion.contains(x))
         data.add(x);
     }
     //10 câu hỏi sa hình
     while(data.length < 35){
-      int x = random.nextInt(600) + 487;
+      int x = random.nextInt(600 - 486) + 487;
       if(!data.contains(x) && !vitalQuestion.contains(x))
         data.add(x);
     }
     //1 câu hỏi điểm liệt
-    int index = random.nextInt(34);
+    int index = random.nextInt(13);
     data.insert(index, vitalQuestion[random.nextInt(60) + 1]);
-/*    print(data);
-    print(vitalQuestion.length);*/
+    //print(data);
+    //print(vitalQuestion.length);
     return questions.where((element) => data.contains(element.id)).toList();
   }
 }
