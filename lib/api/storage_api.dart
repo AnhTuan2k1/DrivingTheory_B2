@@ -23,7 +23,7 @@ class StorageApi {
       {required int typeQuestion, required int idQuestion}) async {
 
     String path = '600Questions/$typeQuestion/$idQuestion.png';
-    print(path);
+    //print(path);
     final ref = FirebaseStorage.instance.ref().child(path);
     final url = await ref.getDownloadURL();
 
