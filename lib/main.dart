@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
       home: const MyHomePage(),
     );
@@ -45,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   buildBody() {
-    switch(index){
+    switch (index) {
       case 0:
         return Theory();
       case 1:
@@ -54,7 +55,6 @@ class _MyHomePageState extends State<MyHomePage> {
         return Exam();
       default:
         return Theory();
-
     }
   }
 

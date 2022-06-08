@@ -1,6 +1,4 @@
-
-
-
+import 'package:driving_theory_b2/UI/theory_screens/theory_item_card.dart';
 import 'package:flutter/material.dart';
 
 class Theory extends StatelessWidget {
@@ -8,6 +6,83 @@ class Theory extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('Lý Thuyết')));
+    return Scaffold(
+      body: Center(
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          physics: BouncingScrollPhysics(),
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 30,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    TheoryItemCard(
+                      imageName: 'random.png',
+                      description: 'Đề thi ngẫu nhiên',
+                      onTap: () {},
+                    ),
+                    TheoryItemCard(
+                      imageName: 'flashcard.png',
+                      description: 'Ôn tập câu hỏi',
+                      onTap: () {},
+                    )
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 30,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    TheoryItemCard(
+                      imageName: 'trafficsign.png',
+                      description: 'Các biển báo',
+                      onTap: () {},
+                    ),
+                    TheoryItemCard(
+                      imageName: 'idea.png',
+                      description: 'Mẹo ghi nhớ',
+                      onTap: () {},
+                    )
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 30,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    TheoryItemCard(
+                      imageName: 'alert.png',
+                      description: 'Câu điểm liệt',
+                      onTap: () {},
+                    ),
+                    TheoryItemCard(
+                      imageName: 'confirm.png',
+                      description: 'Các câu sai nhiều',
+                      onTap: () {},
+                    )
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
