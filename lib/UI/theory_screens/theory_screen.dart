@@ -1,4 +1,5 @@
 import 'package:driving_theory_b2/UI/theory_screens/theory_item_card.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/traffic_sign_list.dart';
 import 'package:flutter/material.dart';
 
 class Theory extends StatelessWidget {
@@ -47,7 +48,10 @@ class Theory extends StatelessWidget {
                     TheoryItemCard(
                       imageName: 'trafficsign.png',
                       description: 'Các biển báo',
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => TrafficSignList()));
+                      },
                     ),
                     TheoryItemCard(
                       imageName: 'idea.png',
@@ -68,7 +72,7 @@ class Theory extends StatelessWidget {
                   children: [
                     TheoryItemCard(
                       imageName: 'alert.png',
-                      description: 'Câu điểm liệt',
+                      description: 'Các câu gặp nhiều',
                       onTap: () {},
                     ),
                     TheoryItemCard(

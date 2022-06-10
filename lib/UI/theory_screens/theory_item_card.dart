@@ -17,7 +17,7 @@ class TheoryItemCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       color: Colors.white24,
-      elevation: 1.1,
+      elevation: 0.3,
       child: InkWell(
         splashColor: Colors.green,
         onTap: onTap,
