@@ -9,6 +9,6 @@ enum QuestionType{
   driving_technique,
   structure_repair,              //5
   traffic_signs,
-  traffic_situations
-
+  traffic_situations,
+  wrong
 }

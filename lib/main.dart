@@ -19,6 +19,7 @@ void main() async{
   Hive.registerAdapter(AnswerAdapter());
   Hive.registerAdapter(QuestionAdapter());
   Hive.registerAdapter(ExamQuestionsAdapter());
+  Hive.openBox<Question>('Question');
   TypeExamData.values.forEach((element) => Hive.openBox<ExamQuestions>(element.toString()));
   runApp(const MyApp());
 }

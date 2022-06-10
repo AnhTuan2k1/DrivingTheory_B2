@@ -1,13 +1,19 @@
-
-
 import 'package:flutter/material.dart';
+import 'package:hive/hive.dart';
 
+import '../../model/enum.dart';
 import '../../model/question.dart';
 
 class AnswerCards extends StatefulWidget {
-  const AnswerCards({required this.submited ,required this.question, Key? key}) : super(key: key);
+  const AnswerCards(
+      {required this.submited,
+      required this.question,
+      Key? key,
+      required this.questionType})
+      : super(key: key);
   final Question question;
   final bool submited;
+  final String questionType;
 
   @override
   State<AnswerCards> createState() => _AnswerCardsState();
@@ -21,13 +27,14 @@ class _AnswerCardsState extends State<AnswerCards> {
       height: 20,
     ));
     list.addAll((widget.question.answers.map(
-          (e) => Container(
+      (e) => Container(
         padding: const EdgeInsets.fromLTRB(10.0, 2.0, 10.0, 2.0),
         child: Card(
             elevation: 0.0,
             shape: RoundedRectangleBorder(
               side: BorderSide(
-                  color: getColor(widget.question, e.id, round: true), width: 1),
+                  color: getColor(widget.question, e.id, round: true),
+                  width: 1),
               borderRadius: BorderRadius.circular(10.0),
             ),
             color: getColor(widget.question, e.id),
@@ -56,6 +63,7 @@ class _AnswerCardsState extends State<AnswerCards> {
                     widget.question.selectedAnswerId = e.id;
                   });
                 }
+                hiveUpdateWrongQuestion();
               },
             )),
       ),
@@ -75,6 +83,15 @@ class _AnswerCardsState extends State<AnswerCards> {
       else
         return const Icon(Icons.dangerous, color: Colors.red);
     }
+    else if(QuestionType.values.any((element) => element.toString() == widget.questionType)){
+    if (question.selectedAnswerId == id) {
+      if (question.correctAnswerId == id)
+        return const Icon(Icons.check_circle, color: Colors.green);
+      else
+        return const Icon(Icons.dangerous, color: Colors.red);
+    }
+    }
+
   }
 
   getColor(Question question, identifier, {bool round = false}) {
@@ -89,4 +106,29 @@ class _AnswerCardsState extends State<AnswerCards> {
       return Colors.white;
     }
   }
+
+  void hiveUpdateWrongQuestion() async{
+    if(widget.questionType == QuestionType.values[QuestionType.values.length - 1].toString()){
+      var box = Hive.box<Question>('Question');
+     // print('update----------------------------okok 2---------------------------');
+      if(widget.question.selectedAnswerId != null){
+        if(widget.question.selectedAnswerId == widget.question.correctAnswerId){
+          if(box.values.contains(widget.question)){
+            int index = 0;
+            for(;index < box.values.length; index++){
+              if(box.getAt(index)!.id == widget.question.id){
+                box.deleteAt(index);
+              }
+            }
+          }
+        }else{
+          if(!box.values.contains(widget.question)){
+           // print('update----------------------------okok 4---------------------------');
+            await box.add(widget.question);
+          }
+        }
+      }
+    }
+  }
+
 }

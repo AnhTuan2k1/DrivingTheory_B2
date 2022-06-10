@@ -4,14 +4,17 @@ import '../../api/storage_api.dart';
 import '../../model/exam_questions.dart';
 import '../../model/question.dart';
 import '../dialog/change_question_dialog.dart';
+import '../widget/answer_cards.dart';
 import '../widget/list_wheel_scroll_view_x.dart';
 
 class RevisionQuestionPage extends StatefulWidget {
   const RevisionQuestionPage(
-      this.examQuestions, {
-        Key? key,
-      }) : super(key: key);
+    this.examQuestions, {
+    required this.questionType,
+    Key? key,
+  }) : super(key: key);
   final ExamQuestions examQuestions;
+  final String questionType;
 
   @override
   State<RevisionQuestionPage> createState() => _RevisionQuestionPageState();
@@ -55,14 +58,14 @@ class _RevisionQuestionPageState extends State<RevisionQuestionPage> {
                   children: widget.examQuestions.questions
                       .map(
                         (question) => SingleChildScrollView(
-                      child: Column(
-                        children: [
-                          buildQuestion(question),
-                          Column(children: buildAnswers(question)),
-                        ],
-                      ),
-                    ),
-                  )
+                          child: Column(
+                            children: [
+                              buildQuestion(question),
+                              buildAnswers(question),
+                            ],
+                          ),
+                        ),
+                      )
                       .toList()),
             ),
           ]),
@@ -117,9 +120,9 @@ class _RevisionQuestionPageState extends State<RevisionQuestionPage> {
                             ),
                             title: FittedBox(
                                 child: Text(
-                                  'Câu sau',
-                                  textAlign: TextAlign.center,
-                                )),
+                              'Câu sau',
+                              textAlign: TextAlign.center,
+                            )),
                           )),
                     )),
                 Expanded(
@@ -135,9 +138,9 @@ class _RevisionQuestionPageState extends State<RevisionQuestionPage> {
                           child: const ListTile(
                             title: FittedBox(
                                 child: Text(
-                                  'Câu kế tiếp',
-                                  textAlign: TextAlign.center,
-                                )),
+                              'Câu kế tiếp',
+                              textAlign: TextAlign.center,
+                            )),
                             trailing: Icon(
                               Icons.east_outlined,
                               color: Colors.deepPurpleAccent,
@@ -153,16 +156,16 @@ class _RevisionQuestionPageState extends State<RevisionQuestionPage> {
   handleChangeQuestion() async {
     int? x;
     await showDialog<int>(
-        context: context,
-        builder: (context) {
-          return ChangeQuestionDialog(
-              questions: widget.examQuestions.questions,
-              submited: widget.examQuestions.submited);
-        })
+            context: context,
+            builder: (context) {
+              return ChangeQuestionDialog(
+                  questions: widget.examQuestions.questions,
+                  submited: widget.examQuestions.submited);
+            })
         .then((value) => {
-      x = value ?? controller.page?.toInt(),
-      wheelControler.jumpToItem(x ?? 0)
-    });
+              x = value ?? controller.page?.toInt(),
+              wheelControler.jumpToItem(x ?? 0)
+            });
   }
 
   buildStateExamPage() {
@@ -181,24 +184,24 @@ class _RevisionQuestionPageState extends State<RevisionQuestionPage> {
           physics: const BouncingScrollPhysics(),
           children: widget.examQuestions.questions
               .map((question) => Container(
-            decoration: BoxDecoration(
-                borderRadius:
-                const BorderRadius.all(Radius.circular(10.0)),
-                //color: Colors.cyanAccent,
-                border: Border.all(color: Colors.blueAccent)),
-            width: 70,
-            height: 70,
-            margin: const EdgeInsets.fromLTRB(1.0, 15.0, 1.0, 15.0),
-            padding: const EdgeInsets.all(5.0),
-            child: Center(
-              child: Text(
-                (widget.examQuestions.questions.indexOf(question) + 1)
-                    .toString(),
-                textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 20),
-              ),
-            ),
-          ))
+                    decoration: BoxDecoration(
+                        borderRadius:
+                            const BorderRadius.all(Radius.circular(10.0)),
+                        //color: Colors.cyanAccent,
+                        border: Border.all(color: Colors.blueAccent)),
+                    width: 70,
+                    height: 70,
+                    margin: const EdgeInsets.fromLTRB(1.0, 15.0, 1.0, 15.0),
+                    padding: const EdgeInsets.all(5.0),
+                    child: Center(
+                      child: Text(
+                        (widget.examQuestions.questions.indexOf(question) + 1)
+                            .toString(),
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(fontSize: 20),
+                      ),
+                    ),
+                  ))
               .toList(),
         ),
       ),
@@ -219,7 +222,7 @@ class _RevisionQuestionPageState extends State<RevisionQuestionPage> {
                 BoxShadow(
                     blurRadius: 5.0, color: Colors.black, offset: Offset(1, 3))
               ] // Make rounded corner of border
-          ),
+              ),
           child: Column(
             children: [
               Padding(
@@ -245,56 +248,10 @@ class _RevisionQuestionPageState extends State<RevisionQuestionPage> {
   }
 
   buildAnswers(Question question) {
-    List<Widget> list = <Widget>[];
-    list.add(const SizedBox(
-      height: 20,
-    ));
-    list.addAll((question.answers.map(
-          (e) => Container(
-        padding: const EdgeInsets.fromLTRB(10.0, 2.0, 10.0, 2.0),
-        child: Card(
-            elevation: 0.0,
-            shape: RoundedRectangleBorder(
-              side: BorderSide(
-                  color: getColor(question, e.id, round: true), width: 1),
-              borderRadius: BorderRadius.circular(10.0),
-            ),
-            color: getColor(question, e.id),
-            child: ListTile(
-              leading: Container(
-                padding: const EdgeInsets.all(4.0),
-                width: 30,
-                height: 30,
-                decoration: BoxDecoration(
-                    border: Border.all(
-                      // width: 3.0,
-                      color: Colors.greenAccent,
-                    ),
-                    borderRadius: const BorderRadius.all(Radius.circular(100))),
-                child: Text(
-                  e.id.toString(),
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(fontWeight: FontWeight.bold),
-                ),
-              ),
-              title: Text(e.content),
-              trailing: ShowAnswer(question, e.id),
-              onTap: () {
-                if (!widget.examQuestions.submited) {
-                  setState(() {
-                    question.selectedAnswerId = e.id;
-                  });
-                }
-              },
-            )),
-      ),
-    )));
-
-    list.add(const SizedBox(
-      height: 140,
-    ));
-
-    return list;
+    return AnswerCards(
+        submited: widget.examQuestions.submited,
+        question: question,
+        questionType: widget.questionType);
   }
 
   ShowAnswer(Question question, int id) {

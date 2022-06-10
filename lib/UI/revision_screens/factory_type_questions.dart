@@ -2,6 +2,8 @@
 
 
 
+import 'package:hive/hive.dart';
+
 import '../../model/enum.dart';
 import '../../model/question.dart';
 
@@ -24,6 +26,8 @@ class FactoryTypeQuestion{
         return TrafficSituations();
       case QuestionType.none:
         return VitalQuestions();
+      case QuestionType.wrong:
+        return WrongQuestions();
     }
   }
 }
@@ -251,4 +255,39 @@ class VitalQuestions extends TypeQuestions{
 
   @override
   String getPathImage() => 'assets/images/box-important.png';
+}
+
+class WrongQuestions extends TypeQuestions{
+
+  static final WrongQuestions _instance = WrongQuestions._privateConstructor();
+  factory WrongQuestions() => _instance;
+  WrongQuestions._privateConstructor();
+
+  @override
+  List<Question> createQuestion(List<Question> questions) {
+    var box = Hive.box<Question>('Question');
+    box.values.forEach((element) {element.selectedAnswerId = null;});
+    return box.values.toList();
+  }
+
+  @override
+  String getName() => 'ÔN LẠI CÂU HỎI LÀM SAI';
+
+  @override
+  int getNumQuestion() {
+    var box = Hive.box<Question>('Question');
+    return box.length;
+  }
+
+  @override
+  int getWeight() => 0;
+
+  @override
+  int getVital() {
+    var box = Hive.box<Question>('Question');
+    return box.values.where((question) => question.vital).length;
+  }
+
+  @override
+  String getPathImage() => 'assets/images/delete_sign.png';
 }
