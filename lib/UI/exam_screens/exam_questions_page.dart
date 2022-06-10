@@ -1,4 +1,5 @@
 import 'package:driving_theory_b2/UI/exam_screens/result_page.dart';
+import 'package:driving_theory_b2/UI/widget/answer_cards.dart';
 import 'package:driving_theory_b2/UI/widget/list_wheel_scroll_view_x.dart';
 import 'package:driving_theory_b2/UI/widget/timer_progress.dart';
 import 'package:driving_theory_b2/api/storage_api.dart';
@@ -6,6 +7,7 @@ import 'package:driving_theory_b2/model/exam_questions.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 import '../../bloc/timer_bloc/ticker.dart';
 import '../../bloc/timer_bloc/timer_bloc.dart';
@@ -13,11 +15,13 @@ import '../../model/question.dart';
 import '../dialog/change_question_dialog.dart';
 import '../dialog/stop_exam_dialog.dart';
 import '../dialog/submit_exam_dialog.dart';
+import 'factory_exam_questions.dart';
 
 class ExamQuestionPage extends StatefulWidget {
-  const ExamQuestionPage({required this.examQuestions, Key? key})
+  const ExamQuestionPage({required this.examQuestions, required this.typeExamData, re, Key? key})
       : super(key: key);
   final ExamQuestions examQuestions;
+  final String typeExamData;
 
   @override
   State<ExamQuestionPage> createState() => _ExamQuestionPageState();
@@ -101,7 +105,7 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
                                   child: Column(
                                     children: [
                                       buildQuestion(question),
-                                      Column(children: buildAnswers(question)),
+                                      buildAnswers(question),
                                     ],
                                   ),
                                 ),
@@ -201,6 +205,7 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
       Builder(
         builder: (context) {
           final TimerBloc timerBloc = BlocProvider.of<TimerBloc>(context);
+          if(widget.examQuestions.submited) timerBloc.pause();
           return BlocListener(
             bloc: timerBloc,
             listenWhen: (prev, state) => prev.runtimeType != state.runtimeType,
@@ -254,56 +259,7 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
   }
 
   buildAnswers(Question question) {
-    List<Widget> list = <Widget>[];
-    list.add(SizedBox(
-      height: 20,
-    ));
-    list.addAll((question.answers.map(
-          (e) => Container(
-        padding: const EdgeInsets.fromLTRB(10.0, 2.0, 10.0, 2.0),
-        child: Card(
-            elevation: 0.0,
-            shape: RoundedRectangleBorder(
-              side: BorderSide(
-                  color: getColor(question, e.id, round: true), width: 1),
-              borderRadius: BorderRadius.circular(10.0),
-            ),
-            color: getColor(question, e.id),
-            child: ListTile(
-              leading: Container(
-                padding: const EdgeInsets.all(4.0),
-                width: 30,
-                height: 30,
-                decoration: BoxDecoration(
-                    border: Border.all(
-                      // width: 3.0,
-                      color: Colors.greenAccent,
-                    ),
-                    borderRadius: const BorderRadius.all(Radius.circular(100))),
-                child: Text(
-                  e.id.toString(),
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(fontWeight: FontWeight.bold),
-                ),
-              ),
-              title: Text(e.content),
-              trailing: ShowAnswer(question, e.id),
-              onTap: () {
-                if (!widget.examQuestions.submited) {
-                  setState(() {
-                    question.selectedAnswerId = e.id;
-                  });
-                }
-              },
-            )),
-      ),
-    )));
-
-    list.add(SizedBox(
-      height: 100,
-    ));
-
-    return list;
+    return AnswerCards(submited: widget.examQuestions.submited, question: question);
   }
 
   ShowAnswer(Question question, int id) {
@@ -373,6 +329,7 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
   handleSubmittingExam() {
     setState(() {
       widget.examQuestions.makeMark();
+      hiveSave();
     });
     Navigator.push(
         context,
@@ -408,6 +365,16 @@ class _ExamQuestionPageState extends State<ExamQuestionPage> {
         }
       },
     );
+  }
+
+  void hiveSave() {
+    if(widget.typeExamData == TypeExamData.RandomExamData.toString()) return;
+   /* var lazyExamQuestionsBox = await Hive.openLazyBox<ExamQuestions>(widget.typeExamData);
+    await lazyExamQuestionsBox.add(widget.examQuestions);
+    await lazyExamQuestionsBox.close();*/
+
+    var box = Hive.box<ExamQuestions>(widget.typeExamData);
+    box.add(widget.examQuestions);
   }
 
 }

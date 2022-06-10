@@ -7,6 +7,7 @@ import 'package:driving_theory_b2/api/storage_api.dart';
 import 'package:driving_theory_b2/model/exam_questions.dart';
 import 'package:driving_theory_b2/UI/exam_screens/factory_exam_questions.dart';
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
 
 import '../../api/exam_questions_api.dart';
 import '../../model/question.dart';
@@ -23,9 +24,10 @@ class Exam extends StatelessWidget {
           foregroundColor: Colors.black,
         ),
         body: SingleChildScrollView(
-          padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0),
-          child: Column(children: buildListExams(context),)
-        ));
+            padding: const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0),
+            child: Column(
+              children: buildListExams(context),
+            )));
   }
 
   List<GestureDetector> buildListExams(BuildContext context) {
@@ -35,16 +37,59 @@ class Exam extends StatelessWidget {
               onTap: () async {
                 ExamQuestions eq = await createExamQuestion(
                     typeExamData: TypeExamData.values[index], context: context);
-                showStartExamDialog(context, eq);
+
+                !eq.submited
+                    ? showStartExamDialog(
+                        context, eq, TypeExamData.values[index].toString())
+                    : Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => ExamQuestionPage(
+                                  examQuestions: eq,
+                                  typeExamData:
+                                      TypeExamData.values[index].toString(),
+                                )));
               },
               child: buildCard(
+                  typeExamData: TypeExamData.values[index],
                   name: FactoryExamData.getExamData(
                           typeExamData: TypeExamData.values[index])
                       .getTitle()),
             ));
   }
 
-  Card buildCard({String name = 'Tạo Đề Ngẫu Nhiên'}) {
+  Widget buildStatusCard(
+      {required TypeExamData typeExamData, String name = 'Tạo Đề Ngẫu Nhiên'}) {
+    return ValueListenableBuilder(
+      valueListenable:
+          Hive.box<ExamQuestions>(typeExamData.toString()).listenable(),
+      builder: (context, Box<ExamQuestions> box, widget) {
+        if (box.isEmpty) {
+          return const Text('Làm Bài');
+        } else {
+          return Column(children: [
+            const SizedBox(
+              height: 10,
+            ),
+            box.getAt(0)!.result
+                ? const Text('Đạt',
+                    style: TextStyle(fontSize: 18, color: Colors.green))
+                : const Text(
+                    'Chưa Đạt',
+                    style: TextStyle(fontSize: 18, color: Colors.red),
+                  ),
+            Text('đúng ${box.getAt(0)!.correctQuestions}/35 câu')
+          ]);
+        }
+      },
+    );
+
+  }
+
+  Card buildCard({
+    required String name,
+    required TypeExamData typeExamData,
+  }) {
     return Card(
       margin: const EdgeInsets.only(left: 2.0, top: 10.0),
       shape: RoundedRectangleBorder(
@@ -66,7 +111,7 @@ class Exam extends StatelessWidget {
           style: const TextStyle(fontSize: 17),
         ),
         subtitle: const Text('35 câu/22 phút'),
-        trailing: const Text('Làm Bài'),
+        trailing: buildStatusCard(typeExamData: typeExamData),
       ),
     );
   }
@@ -74,33 +119,41 @@ class Exam extends StatelessWidget {
   Future<ExamQuestions> createExamQuestion(
       {required TypeExamData typeExamData,
       required BuildContext context}) async {
+    //exam from hive box
+    var lazyExamQuestionsBox = Hive.box<ExamQuestions>(typeExamData.toString());
+    ExamQuestions? eq;
+    if (lazyExamQuestionsBox.isNotEmpty)
+      eq = await lazyExamQuestionsBox.getAt(0);
+    if (eq != null) return eq;
+
+    //exam from factory_exam
     List<Question> questions = await QuestionApi.getQuestionsLocally(context);
-
     final examData = FactoryExamData.getExamData(typeExamData: typeExamData);
-
     return ExamQuestions(
         examData.createQuestions(questions), examData.getTitle());
   }
 
-  showStartExamDialog(BuildContext context, ExamQuestions eq) async {
+  showStartExamDialog(
+      BuildContext context, ExamQuestions eq, String typeExamData) async {
     await showDialog<bool>(
         context: context,
         builder: (context) {
           return const StartExamDialog();
         }).then((value) => {
-      if (value != null)
-        {
-          if (value)
+          if (value != null)
             {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) =>
-                          ExamQuestionPage(examQuestions: eq)))
-
+              if (value)
+                {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => ExamQuestionPage(
+                                examQuestions: eq,
+                                typeExamData: typeExamData,
+                              )))
+                }
             }
-        }
-    });
+        });
   }
 
   Color getColors() {

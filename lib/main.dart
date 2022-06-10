@@ -3,12 +3,23 @@ import 'package:driving_theory_b2/UI/exam_screens/exam_screen.dart';
 import 'package:driving_theory_b2/UI/theory_screens/theory_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+
+import 'UI/exam_screens/factory_exam_questions.dart';
 
 import 'UI/revision_screens/revision_screen.dart';
+import 'model/answer.dart';
+import 'model/exam_questions.dart';
+import 'model/question.dart';
 
 void main() async{
+  await Hive.initFlutter();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
+  Hive.registerAdapter(AnswerAdapter());
+  Hive.registerAdapter(QuestionAdapter());
+  Hive.registerAdapter(ExamQuestionsAdapter());
+  TypeExamData.values.forEach((element) => Hive.openBox<ExamQuestions>(element.toString()));
   runApp(const MyApp());
 }
 

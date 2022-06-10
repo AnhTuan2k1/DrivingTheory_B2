@@ -9,7 +9,7 @@ part 'timer_state.dart';
 
 class TimerBloc extends Bloc<TimerEvent, TimerState> {
   final Ticker _ticker;
-  static const int duration = 8;
+  static const int duration = 22*60;
 
   StreamSubscription<int>? _tickerSubscription;
 
@@ -42,6 +42,13 @@ class TimerBloc extends Bloc<TimerEvent, TimerState> {
   }
 
   void _onPaused(TimerPaused event, Emitter<TimerState> emit) {
+    if (state is TimerRunInProgress) {
+      _tickerSubscription?.pause();
+      emit(TimerRunPause(state.duration));
+    }
+  }
+
+  void pause(){
     if (state is TimerRunInProgress) {
       _tickerSubscription?.pause();
       emit(TimerRunPause(state.duration));
