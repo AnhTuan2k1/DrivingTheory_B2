@@ -1,3 +1,4 @@
+import 'package:driving_theory_b2/UI/theory_screens/models/bienbaocam.dart';
 import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/sign_list.dart';
 import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/traffic_sign_item.dart';
 import 'package:flutter/material.dart';
@@ -22,8 +23,8 @@ class TrafficSignList extends StatelessWidget {
                 child: TrafficSignItem(
                   name: 'Biển báo cấm',
                   onPress: () {
-                    Navigator.of(context).push(
-                        MaterialPageRoute(builder: (context) => SignList()));
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => SignListBienBaoCam()));
                   },
                 ),
               ),
@@ -33,7 +34,10 @@ class TrafficSignList extends StatelessWidget {
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo nguy hiểm',
-                  onPress: () {},
+                  onPress: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => SignListBienBaoNguyHiem()));
+                  },
                 ),
               ),
               Padding(
@@ -42,7 +46,10 @@ class TrafficSignList extends StatelessWidget {
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo hiệu lệnh',
-                  onPress: () {},
+                  onPress: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => SignListBienBaoHieuLenh()));
+                  },
                 ),
               ),
               Padding(
@@ -51,7 +58,10 @@ class TrafficSignList extends StatelessWidget {
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo chỉ dẫn',
-                  onPress: () {},
+                  onPress: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => SignListBienBaoChiDan()));
+                  },
                 ),
               ),
               Padding(
@@ -60,7 +70,10 @@ class TrafficSignList extends StatelessWidget {
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo phụ',
-                  onPress: () {},
+                  onPress: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => SignListBienBaoPhu()));
+                  },
                 ),
               ),
               Padding(
@@ -69,7 +82,10 @@ class TrafficSignList extends StatelessWidget {
                 ),
                 child: TrafficSignItem(
                   name: 'Vạch kẻ đường',
-                  onPress: () {},
+                  onPress: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => SignListVachKeDuong()));
+                  },
                 ),
               ),
             ],
