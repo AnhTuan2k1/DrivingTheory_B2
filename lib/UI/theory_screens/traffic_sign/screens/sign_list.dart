@@ -1,11 +1,12 @@
-import 'package:driving_theory_b2/UI/theory_screens/models/bienbaocam.dart';
-import 'package:driving_theory_b2/UI/theory_screens/models/bienbaochidan.dart';
-import 'package:driving_theory_b2/UI/theory_screens/models/bienbaohieulenh.dart';
-import 'package:driving_theory_b2/UI/theory_screens/models/bienbaonguyhiem.dart';
-import 'package:driving_theory_b2/UI/theory_screens/models/bienbaophu.dart';
-import 'package:driving_theory_b2/UI/theory_screens/models/vachkeduong.dart';
-import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/sign_item.dart';
-import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/sign_item_detail.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaocam.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaochidan.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaohieulenh.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaonguyhiem.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaophu.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/vachkeduong.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/screens/sign_item.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/screens/sign_item_detail.dart';
+
 import 'package:flutter/material.dart';
 
 class SignListBienBaoCam extends StatelessWidget {

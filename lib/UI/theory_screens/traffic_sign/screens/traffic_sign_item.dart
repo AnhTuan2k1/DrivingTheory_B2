@@ -17,15 +17,21 @@ class TrafficSignItem extends StatelessWidget {
         horizontal: 16,
       ),
       child: Card(
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(15.0)),
+        color: Color.fromARGB(255, 89, 222, 82),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(
+            15.0,
+          ),
+        ),
         child: InkWell(
           splashColor: Colors.green,
           borderRadius: BorderRadius.circular(15.0),
           onTap: onPress,
           child: Container(
-            color: Colors.white30,
-            height: 50,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15.0),
+            ),
+            height: 80,
             child: Padding(
               padding: const EdgeInsets.symmetric(
                 horizontal: 16,
