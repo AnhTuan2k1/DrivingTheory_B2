@@ -1,6 +1,6 @@
-import 'package:driving_theory_b2/UI/theory_screens/models/bienbaocam.dart';
-import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/sign_list.dart';
-import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/traffic_sign_item.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/screens/sign_list.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/screens/traffic_sign_item.dart';
+
 import 'package:flutter/material.dart';
 
 class TrafficSignList extends StatelessWidget {

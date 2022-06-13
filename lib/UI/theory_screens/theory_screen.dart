@@ -1,5 +1,7 @@
 import 'package:driving_theory_b2/UI/theory_screens/theory_item_card.dart';
-import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/traffic_sign_list.dart';
+import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/screens/traffic_sign_list.dart';
+import 'package:driving_theory_b2/UI/theory_screens/tricks/tricks_list.dart';
+
 import 'package:flutter/material.dart';
 
 class Theory extends StatelessWidget {
@@ -24,28 +26,6 @@ class Theory extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     TheoryItemCard(
-                      imageName: 'random.png',
-                      description: 'Đề thi ngẫu nhiên',
-                      onTap: () {},
-                    ),
-                    TheoryItemCard(
-                      imageName: 'flashcard.png',
-                      description: 'Ôn tập câu hỏi',
-                      onTap: () {},
-                    )
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 20,
-                  vertical: 30,
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    TheoryItemCard(
                       imageName: 'trafficsign.png',
                       description: 'Các biển báo',
                       onTap: () {
@@ -55,8 +35,11 @@ class Theory extends StatelessWidget {
                     ),
                     TheoryItemCard(
                       imageName: 'idea.png',
-                      description: 'Mẹo ghi nhớ',
-                      onTap: () {},
+                      description: 'Mẹo thi tốt',
+                      onTap: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => TrickList()));
+                      },
                     )
                   ],
                 ),
@@ -78,6 +61,28 @@ class Theory extends StatelessWidget {
                     TheoryItemCard(
                       imageName: 'confirm.png',
                       description: 'Các câu sai nhiều',
+                      onTap: () {},
+                    ),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 30,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    TheoryItemCard(
+                      imageName: 'random.png',
+                      description: 'Đề thi ngẫu nhiên',
+                      onTap: () {},
+                    ),
+                    TheoryItemCard(
+                      imageName: 'flashcard.png',
+                      description: 'Ôn tập câu hỏi',
                       onTap: () {},
                     )
                   ],
