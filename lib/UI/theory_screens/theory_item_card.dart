@@ -23,7 +23,7 @@ class TheoryItemCard extends StatelessWidget {
         onTap: onTap,
         child: SizedBox(
           //height: 160,
-          height: 360,
+          height: 240,
           width: 160,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
