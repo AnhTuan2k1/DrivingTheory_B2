@@ -5737,6 +5737,781 @@
     ]
   },
   {
+    "id": 266,
+    "type": 4,
+    "vital": false,
+    "content": "Tay ga trên xe mô tô hai bánh có tác dụng gì trong các trường hợp dưới đây?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để điều khiển xe chạy về phía trước."
+      },
+      {
+        "id": 2,
+        "content": "Để điều tiết công suất động cơ qua đó điều khiển tốc độ của xe."
+      },
+      {
+        "id": 3,
+        "content": "Để điều khiển xe chạy lùi."
+      },
+      {
+        "id": 4,
+        "content": "Tất cả các ý nêu trên."
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "type": 4,
+    "vital": false,
+    "content": "Gương chiếu hậu của xe mô tô hai bánh, có tác dụng gì trong các trường hợp dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để quan sát an toàn phía bên trái khi chuẩn bị rẽ trái."
+      },
+      {
+        "id": 2,
+        "content": "Để quan sát an toàn phía bên phải khi chuẩn bị rẽ phải."
+      },
+      {
+        "id": 3,
+        "content": "Để quan sát an toàn phía sau cả bên trái và bên phải trước khi chuyển hướng."
+      },
+      {
+        "id": 4,
+        "content": "Để quan sát an toàn phía trước cả bên trái và bên phải trước khi chuyển hướng."
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "type": 4,
+    "vital": false,
+    "content": "Để đảm bảo an toàn khi tham gia giao thông, người lái xe mô tô hai bánh cần điều khiển tay ga như thế nào trong các trường hợp dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Tăng ga thật mạnh, giảm ga từ từ."
+      },
+      {
+        "id": 2,
+        "content": "Tăng ga thật mạnh, giảm ga thật nhanh."
+      },
+      {
+        "id": 3,
+        "content": "Tăng ga từ từ, giảm ga thật nhanh."
+      },
+      {
+        "id": 4,
+        "content": "Tăng ga từ từ, giảm ga từ từ."
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "type": 4,
+    "vital": false,
+    "content": "Kỹ thuật cơ bản để giữ thăng bằng khi điều khiển xe mô tô đi trên đường gồ ghề như thế nào trong các trường hợp dưới đây?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đứng thẳng trên giá gác chân lái sau đó hơi gập đầu gối và khủy tay, đi chậm để không nẩy quá mạnh."
+      },
+      {
+        "id": 2,
+        "content": "Ngồi lùi lại phía sau, tăng ga vượt nhanh qua đoạn đường xóc."
+      },
+      {
+        "id": 3,
+        "content": "Ngồi lệch sang bên trái hoặc bên phải để lấy thăng bằng qua đoạn đường gồ ghề."
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "type": 5,
+    "vital": false,
+    "content": "Chủ phương tiện cơ giới đường bộ có được tự ý thay đổi màu sơn, nhãn hiệu hoặc các đặc tính kỹ thuật của phương tiện so với chứng nhận đăng ký xe hay không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Được phép thay đổi bằng cách dán đề can với màu sắc phù hợp."
+      },
+      {
+        "id": 2,
+        "content": "Không được phép thay đổi."
+      },
+      {
+        "id": 3,
+        "content": "Tùy từng loại phương tiện cơ giới đường bộ."
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "type": 5,
+    "vital": false,
+    "content": "Xe ô tô tham gia giao thông đường bộ phải bảo đảm các quy định về chất lượng, an toàn kỹ thuật và bảo vệ môi trường nào ghi dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Kính chắn gió, kính cửa phải là loại kính an toàn, bảo đảm tần nhìn cho người điều khiển; có đủ hệ thống hãm và hệ thống chuyển hướng có hiệu lực, tay lái xe ô tô ở bên trái của xe, có còi với âm lượng đúng quy chuẩn kỹ thuật."
+      },
+      {
+        "id": 2,
+        "content": "Có đủ đèn chiếu sáng gần và xa, đèn soi biển số, đèn báo hãm, đèn tín hiệu; có đủ bộ phận giảm thanh, giảm khói, các kết cấu phải đủ độ bền và bảo đảm tính năng vận hành ổn định."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "type": 5,
+    "vital": false,
+    "content": "Xe mô tô và xe ô tô tham gia giao thông trên đường bộ phải bắt buộc có đủ bộ phận giảm thanh không?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không bắt buộc."
+      },
+      {
+        "id": 2,
+        "content": "Bắt buộc."
+      },
+      {
+        "id": 3,
+        "content": "Tùy từng trường hợp."
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "type": 5,
+    "vital": false,
+    "content": "Xe ô tô tham gia giao thông trên đường bộ phải có đủ các loại đèn gì dưới đây?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đèn chiếu sáng gần và xa."
+      },
+      {
+        "id": 2,
+        "content": "Đèn soi biển số, đèn báo hãm và đèn tín hiệu."
+      },
+      {
+        "id": 3,
+        "content": "Dàn đèn pha trên nóc xe."
+      },
+      {
+        "id": 4,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "type": 5,
+    "vital": false,
+    "content": "Kính chắn gió của xe ô tô phải đảm bảo yêu cầu nào dưới đây?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là loại kính an toàn, kính nhiều lớp, đúng quy cách, không rạn nứt, đảm bảo hình ảnh quan sát rõ ràng, không bị méo mó."
+      },
+      {
+        "id": 2,
+        "content": "Là loại kính trong suốt, không rạn nứt, đảm bảo tầm nhìn cho người điều khiển về phía trước mặt và hai bên."
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "type": 5,
+    "vital": false,
+    "content": "Bánh xe lắp cho xe ô tô phải đảm bảo an toàn kỹ thuật như thế nào dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đủ số lượng, đủ áp suất, đúng cỡ lốp của nhà sản xuất hoặc tài liệu kỹ thuật quy định; lốp bánh dẫn hướng hai bên cùng kiểu hoa lốp, chiều cao hoa lốp đồng đều; không sử dụng lốp đắp; lốp không mòn đến dấu chỉ báo độ mòn của nhà sản xuất, không nứt, vỡ, phồng rộp làm hở lớp sợi mành."
+      },
+      {
+        "id": 2,
+        "content": "Vành, đĩa vành đúng kiểu loại, không rạn, nứt, cong vênh; bánh xe quay trơn, không bị bó kẹt hoặc cọ sát vào phần khác; moay ơ không bị rơ; lắp đặt chắc chắn, đủ các chi tiết kẹp chặt và phòng lỏng."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "type": 5,
+    "vital": false,
+    "content": "Âm lượng của còi điện lắp trên ô tô (đo ở độ cao 1,2 mét với khoảng cách 2 mét tính từ đầu xe) là bao nhiêu?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Không nhỏ hơn 90 dB (A), không lớn hơn 115 dB (A)."
+      },
+      {
+        "id": 2,
+        "content": "Không nhỏ hơn 80 dB (A), không lớn hơn 105 dB (A)."
+      },
+      {
+        "id": 3,
+        "content": "Không nhỏ hơn 70 dB (A), không lớn hơn 90 dB (A)."
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "type": 5,
+    "vital": false,
+    "content": "Mục đích của bảo dưỡng thường xuyên đối với xe ô tô có tác dụng gì dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Bảo dưỡng ô tô thường xuyên làm cho ô tô luôn luôn có tính năng kỹ thuật tốt, giảm cường độ hao mòn của các chi tiết, kéo dài tuổi thọ của xe."
+      },
+      {
+        "id": 2,
+        "content": "Ngăn ngừa và phát hiện kịp thời các hư hỏng và sai lệch kỹ thuật để khắc phục, giữ gìn được hình thức bên ngoài."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "type": 5,
+    "vital": false,
+    "content": "Trong các nguyên nhân nêu dưới đây, nguyên nhân nào làm động cơ diesel không nổ?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí, tạp chất."
+      },
+      {
+        "id": 2,
+        "content": "Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí, không có tia lửa điện."
+      },
+      {
+        "id": 3,
+        "content": "Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí và nước, không có tia lửa điện."
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "type": 5,
+    "vital": false,
+    "content": "Gạt nước lắp trên ô tô phải đảm bảo yêu cầu an toàn kỹ thuật nào dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đầy đủ số lượng, lắp đặt chắc chắn, hoạt động bình thường."
+      },
+      {
+        "id": 2,
+        "content": "Lưỡi gạt không quá mòn, diện tích quét đảm bảo tầm nhìn của người lái."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "type": 5,
+    "vital": false,
+    "content": "Dây đai an toàn lắp trên ô tô phải đảm bảo yêu cầu an toàn kỹ thuật nào dưới đây?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Đủ số lượng, lắp đặt chắc chắn không bị rách, đứt, khóa cài đóng, mở nhẹ nhàng, không tự mở, không bị kẹt; kéo ra thu vào dễ dàng, cơ cấu hãm giữ chặt dây khi giật dây đột ngột."
+      },
+      {
+        "id": 2,
+        "content": "Đủ số lượng, lắp đặt chắc chắn không bị rách, đứt, khóa cài đóng, mở nhẹ nhàng, không tự mở, không bị kẹt; kéo ra thu vào dễ dàng, cơ cấu hãm mở ra khi giật dây đột ngột."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "type": 5,
+    "vital": false,
+    "content": "Thế nào là động cơ 4 kỳ?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 2 (hai) hành trình, trong đó có một lần sinh công."
+      },
+      {
+        "id": 2,
+        "content": "Là loại động cơ: để hoàn thành một chu trình công tác của động cơ, pít tông thực hiện 4 (bốn) hành trình, trong đó có một lần sinh công."
+      },
+      {
+        "id": 3,
+        "content": ""
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "type": 5,
+    "vital": false,
+    "content": "Công dụng của hệ thống bôi trơn đối với động cơ ô tô?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Cung cấp một lượng dầu bôi trơn đủ và sạch dưới áp suất nhất định đi bôi trơn cho các chi tiết của động cơ để giảm ma sát, giảm mài mòn, làm kín, làm sạch, làm mát và chống gỉ."
+      },
+      {
+        "id": 2,
+        "content": "Cung cấp một lượng nhiên liệu đầy đủ và sạch để cho động cơ ô tô hoạt động."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "type": 5,
+    "vital": false,
+    "content": "Niên hạn sử dụng của xe ô tô tải (tính bắt đầu từ năm sản xuất) là bao nhiêu năm?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "15 năm."
+      },
+      {
+        "id": 2,
+        "content": "20 năm."
+      },
+      {
+        "id": 3,
+        "content": "25 năm."
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "type": 5,
+    "vital": false,
+    "content": "Niên hạn sử dụng của xe ô tô chở người trên 9 chỗ ngồi (tính bắt đầu từ năm sản xuất) là bao nhiêu năm?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "5 năm."
+      },
+      {
+        "id": 2,
+        "content": "20 năm."
+      },
+      {
+        "id": 3,
+        "content": "25 năm."
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "type": 5,
+    "vital": false,
+    "content": "Hãy nêu công dụng của động cơ xe ô tô?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Khi làm việc, nhiệt năng được biến đổi thành cơ năng làm trục khủy động cơ quay, truyền lực đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô."
+      },
+      {
+        "id": 2,
+        "content": "Khi làm việc, cơ năng được biến đổi thành nhiệt năng và truyền đến các bánh xe chủ động tạo ra chuyển động tịnh tiến cho xe ô tô."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "type": 5,
+    "vital": false,
+    "content": "Hãy nêu công dụng hệ thống truyền lực của xe ô tô?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dùng để truyền mô men quay từ động cơ tới các bánh xe chủ động của xe ô tô."
+      },
+      {
+        "id": 2,
+        "content": "Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định."
+      },
+      {
+        "id": 3,
+        "content": "Dùng để làm giảm tốc độ, dừng chuyển động của xe ô tô."
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "type": 5,
+    "vital": false,
+    "content": "Hãy nêu công dụng ly hợp (côn) của xe ô tô?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dùng để truyền mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình xe ô tô chuyển động."
+      },
+      {
+        "id": 2,
+        "content": "Dùng để truyền hoặc ngắt truyền động từ động cơ đến hộp số của xe ô tô."
+      },
+      {
+        "id": 3,
+        "content": "Dùng để truyền truyền động từ hộp số đến bánh xe chủ động của ô tô."
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "type": 5,
+    "vital": false,
+    "content": "Hãy nêu công dụng hộp số của xe ô tô?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Truyền và tăng mô men xoắn giữa các trục vuông góc nhau, đảm bảo cho các bánh xe chủ động quay với tốc độ khác nhau khi sức cản chuyển động ở bánh xe hai bên không bằng nhau."
+      },
+      {
+        "id": 2,
+        "content": "Truyền và thay đổi mô men xoắn giữa các trục không cùng nằm trên một đường thẳng và góc lệch trục luôn thay đổi trong quá trình ô tô chuyển động, chuyển số êm dịu, dễ điều khiển."
+      },
+      {
+        "id": 3,
+        "content": "Truyền và thay đổi mô men từ động cơ đến bánh xe chủ động, cắt truyền động từ động cơ đến bánh xe chủ động, đảm bảo cho xe ô tô chuyển động lùi."
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "type": 5,
+    "vital": false,
+    "content": "Hãy nêu công dụng hệ thống lái của xe ô tô?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dùng để thay đổi mô men từ động cơ tới các bánh xe chủ động khi xe ô tô chuyển động theo hướng xác định."
+      },
+      {
+        "id": 2,
+        "content": "Dùng để thay đổi mô men giữa các trục vuông góc nhau khi xe ô tô chuyển động theo hướng xác định."
+      },
+      {
+        "id": 3,
+        "content": "Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định."
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "type": 5,
+    "vital": false,
+    "content": "Hãy nêu công dụng hệ thống phanh của xe ô tô?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Dùng để giảm tốc độ, dừng chuyển động của xe ô tô và giữ cho xe ô tô đứng yên trên dốc."
+      },
+      {
+        "id": 2,
+        "content": "Dùng để thay đổi hướng chuyển động hoặc giữ cho xe ô tô chuyển động ổn định theo hướng xác định."
+      },
+      {
+        "id": 3,
+        "content": "Dùng để truyền hoặc ngắt truyền động từ động cơ đến bánh xe chủ động của xe ô tô."
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "type": 5,
+    "vital": false,
+    "content": "Đèn phanh trên xe mô tô có tác dụng gì dưới đây?",
+    "correctAnswerId": 3,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Có tác dụng cảnh báo cho các xe phía sau biết xe đang giảm tốc để chủ động tránh hoặc giảm tốc để tránh va chạm."
+      },
+      {
+        "id": 2,
+        "content": "Có tác dụng định vị vào ban đêm với các xe từ phía sau tới để tránh va chạm."
+      },
+      {
+        "id": 3,
+        "content": "Cả ý 1 và ý 2."
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "type": 5,
+    "vital": false,
+    "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Nhiệt độ nước làm mát động cơ quá ngưỡng cho phép."
+      },
+      {
+        "id": 2,
+        "content": "Áp suất lốp không đủ."
+      },
+      {
+        "id": 3,
+        "content": "Đang hãm phanh tay."
+      },
+      {
+        "id": 4,
+        "content": "Cần kiểm tra động cơ."
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "type": 5,
+    "vital": false,
+    "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo hiệu hệ thống chống bó cứng khi phanh bị lỗi."
+      },
+      {
+        "id": 2,
+        "content": "Áp suất lốp không đủ."
+      },
+      {
+        "id": 3,
+        "content": "Đang hãm phanh tay."
+      },
+      {
+        "id": 4,
+        "content": "Cần kiểm tra động cơ."
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "type": 5,
+    "vital": false,
+    "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo hiệu thiếu dầu phanh."
+      },
+      {
+        "id": 2,
+        "content": "Áp suất lốp không đủ."
+      },
+      {
+        "id": 3,
+        "content": "Đang hãm phanh tay."
+      },
+      {
+        "id": 4,
+        "content": "Sắp hết nhiên liệu."
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "type": 5,
+    "vital": false,
+    "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Báo hiệu hệ thống chống bó cứng khi phanh bị lỗi."
+      },
+      {
+        "id": 2,
+        "content": "Áp suất lốp không đủ."
+      },
+      {
+        "id": 3,
+        "content": "Đang hãm phanh tay."
+      },
+      {
+        "id": 4,
+        "content": "Sắp hết nhiên liệu."
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "type": 5,
+    "vital": false,
+    "content": "Khi khởi động xe ô tô số tự động có trang bị chìa khóa thông minh có cần đạp hết hành trình bàn đạp chân phanh hay không?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Phải đạp hết hành trình bàn đạp chân phanh."
+      },
+      {
+        "id": 2,
+        "content": "Không cần đạp phanh."
+      },
+      {
+        "id": 3,
+        "content": "Tùy từng trường hợp."
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "type": 5,
+    "vital": false,
+    "content": "Ắc quy được trang bị trên xe ô tô có tác dụng gì dưới đây?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giúp người lái xe kịp thời tạo xung lực tối đa lên hệ thống phanh trong khoảnh khắc đầu tiên của tình huống khẩn cấp."
+      },
+      {
+        "id": 2,
+        "content": "Ổn định chuyển động của xe ô tô khi đi vào đường vòng."
+      },
+      {
+        "id": 3,
+        "content": "Hỗ trợ người lái xe khởi hành ngang dốc."
+      },
+      {
+        "id": 4,
+        "content": "Để tích trữ điện năng, cung cấp cho các phụ tải khi máy phát chưa làm việc."
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "type": 5,
+    "vital": false,
+    "content": "Máy phát điện được trang bị trên xe ô tô có tác dụng gì dưới đây?",
+    "correctAnswerId": 1,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Để phát điện năng cung cấp cho các phụ tải làm việc và nạp điện cho ắc quy."
+      },
+      {
+        "id": 2,
+        "content": "Ổn định chuyển động của xe ô tô khi đi vào đường vòng."
+      },
+      {
+        "id": 3,
+        "content": "Hỗ trợ người lái xe khởi hành ngang dốc."
+      },
+      {
+        "id": 4,
+        "content": "Để tích trữ điện năng và cung cấp điện cho các phụ tải làm việc."
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "type": 5,
+    "vital": false,
+    "content": "Dây đai an toàn được trang bị trên xe ô tô có tác dụng gì dưới đây?",
+    "correctAnswerId": 2,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Ổn định chuyển động của xe ô tô khi đi vào đường vòng."
+      },
+      {
+        "id": 2,
+        "content": "Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại."
+      },
+      {
+        "id": 3,
+        "content": "Để tích trữ điện năng và cung cấp điện cho các phụ tải làm việc."
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "type": 5,
+    "vital": false,
+    "content": "Túi khí được trang bị trên xe ô tô có tác dụng gì dưới đây?",
+    "correctAnswerId": 4,
+    "answers": [
+      {
+        "id": 1,
+        "content": "Giữ chặt người lái và hành khách trên ghế ngồi khi xe ô tô đột ngột dừng lại."
+      },
+      {
+        "id": 2,
+        "content": "Giảm khả năng va đập của một số bộ phận cơ thể quan trọng với các vật thể trong xe."
+      },
+      {
+        "id": 3,
+        "content": "Hấp thụ một phần lực va đập lên người lái và hành khách."
+      },
+      {
+        "id": 4,
+        "content": "Cả ý 2 và ý 3."
+      }
+    ]
+  },
+  {
     "id": 301,
     "type": 5,
     "vital": false,
