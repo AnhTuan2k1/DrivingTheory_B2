@@ -1,3 +1,4 @@
+import 'package:driving_theory_b2/UI/theory_screens/taplo/screens/taplo_list_screen.dart';
 import 'package:driving_theory_b2/UI/theory_screens/theory_item_card.dart';
 import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/screens/traffic_sign_list.dart';
 import 'package:driving_theory_b2/UI/theory_screens/tricks/tricks_list.dart';
@@ -29,43 +30,55 @@ class Theory extends StatelessWidget {
                       imageName: 'trafficsign.png',
                       description: 'Các biển báo',
                       onTap: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => TrafficSignList()));
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => TrafficSignList(),
+                          ),
+                        );
                       },
                     ),
                     TheoryItemCard(
                       imageName: 'idea.png',
                       description: 'Mẹo thi tốt',
                       onTap: () {
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => TrickList()));
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => TrickList(),
+                          ),
+                        );
                       },
                     )
                   ],
                 ),
               ),
-              // Padding(
-              //   padding: const EdgeInsets.symmetric(
-              //     horizontal: 20,
-              //     vertical: 30,
-              //   ),
-              //   child: Row(
-              //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              //     crossAxisAlignment: CrossAxisAlignment.center,
-              //     children: [
-              //       TheoryItemCard(
-              //         imageName: 'experiences.png',
-              //         description: 'Các câu gặp nhiều',
-              //         onTap: () {},
-              //       ),
-              //       TheoryItemCard(
-              //         imageName: 'confirm.png',
-              //         description: 'Các câu sai nhiều',
-              //         onTap: () {},
-              //       ),
-              //     ],
-              //   ),
-              // ),
+              Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 20,
+                  vertical: 30,
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    TheoryItemCard(
+                      imageName: 'experiences.png',
+                      description: 'Đèn cảnh báo ô tô',
+                      onTap: () {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                            builder: (context) => TapLolist(),
+                          ),
+                        );
+                      },
+                    ),
+                    // TheoryItemCard(
+                    //   imageName: 'confirm.png',
+                    //   description: 'Các câu sai nhiều',
+                    //   onTap: () {},
+                    // ),
+                  ],
+                ),
+              ),
               // Padding(
               //   padding: const EdgeInsets.symmetric(
               //     horizontal: 20,
