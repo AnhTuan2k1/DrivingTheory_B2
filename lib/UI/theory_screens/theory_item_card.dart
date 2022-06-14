@@ -16,13 +16,14 @@ class TheoryItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.white24,
+      color: const Color.fromARGB(255, 98, 223, 113),
       elevation: 0.3,
       child: InkWell(
-        splashColor: Colors.green,
+        splashColor: const Color.fromARGB(255, 113, 235, 117),
         onTap: onTap,
         child: SizedBox(
-          height: 160,
+          //height: 160,
+          height: 360,
           width: 160,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,

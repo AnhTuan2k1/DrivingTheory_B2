@@ -14,7 +14,7 @@ class TrickItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Color.fromARGB(255, 89, 222, 82),
+      color: const Color.fromARGB(255, 98, 223, 113),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(
           12.0,

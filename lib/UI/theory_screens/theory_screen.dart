@@ -44,50 +44,50 @@ class Theory extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 20,
-                  vertical: 30,
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    TheoryItemCard(
-                      imageName: 'alert.png',
-                      description: 'Các câu gặp nhiều',
-                      onTap: () {},
-                    ),
-                    TheoryItemCard(
-                      imageName: 'confirm.png',
-                      description: 'Các câu sai nhiều',
-                      onTap: () {},
-                    ),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 20,
-                  vertical: 30,
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    TheoryItemCard(
-                      imageName: 'random.png',
-                      description: 'Đề thi ngẫu nhiên',
-                      onTap: () {},
-                    ),
-                    TheoryItemCard(
-                      imageName: 'flashcard.png',
-                      description: 'Ôn tập câu hỏi',
-                      onTap: () {},
-                    )
-                  ],
-                ),
-              ),
+              // Padding(
+              //   padding: const EdgeInsets.symmetric(
+              //     horizontal: 20,
+              //     vertical: 30,
+              //   ),
+              //   child: Row(
+              //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              //     crossAxisAlignment: CrossAxisAlignment.center,
+              //     children: [
+              //       TheoryItemCard(
+              //         imageName: 'experiences.png',
+              //         description: 'Các câu gặp nhiều',
+              //         onTap: () {},
+              //       ),
+              //       TheoryItemCard(
+              //         imageName: 'confirm.png',
+              //         description: 'Các câu sai nhiều',
+              //         onTap: () {},
+              //       ),
+              //     ],
+              //   ),
+              // ),
+              // Padding(
+              //   padding: const EdgeInsets.symmetric(
+              //     horizontal: 20,
+              //     vertical: 30,
+              //   ),
+              //   child: Row(
+              //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              //     crossAxisAlignment: CrossAxisAlignment.center,
+              //     children: [
+              //       TheoryItemCard(
+              //         imageName: 'random.png',
+              //         description: 'Đề thi ngẫu nhiên',
+              //         onTap: () {},
+              //       ),
+              //       TheoryItemCard(
+              //         imageName: 'flashcard.png',
+              //         description: 'Ôn tập câu hỏi',
+              //         onTap: () {},
+              //       )
+              //     ],
+              //   ),
+              // ),
             ],
           ),
         ),

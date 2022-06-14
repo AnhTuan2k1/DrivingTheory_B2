@@ -17,7 +17,7 @@ class TrickLiThuyetItem extends StatelessWidget {
         horizontal: 16,
       ),
       child: Card(
-        color: Color.fromARGB(255, 89, 222, 82),
+        color: const Color.fromARGB(255, 98, 223, 113),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(
             8.0,
