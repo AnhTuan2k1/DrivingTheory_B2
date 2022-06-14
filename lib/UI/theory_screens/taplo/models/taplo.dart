@@ -30,14 +30,14 @@ List<TapLo> listtaplo = [
     description:
         'Đèn báo bật sáng khi áp suất dầu xuống thấp. Nguyên nhân có thể do bơm dầu bị lỗi, xe bị thiếu dầu, sử dụng không đúng loại dầu nhớt, van an toàn bị kẹt… Khi thấy đèn báo cần kiểm tra càng sớm càng tốt.',
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Ftaplo%2F3.jpg?alt=media&token=6b6ee7c4-6186-44b5-a71a-9c60dd4f0765',
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/600Questions%2F5%2F293.png?alt=media&token=ab11929b-bd6f-486c-ae63-40f0e8fff250',
   ),
   TapLo(
     name: 'Đèn cảnh báo lỗi trợ lực lái điện',
     description:
         'Đèn báo bật sáng khi hệ thống trợ lực lái điện đang gặp trục trặc, cảm biến trợ lực bị lỗi… Khi hệ thống trợ lực lái điện bị lỗi thường kèm theo dấu hiệu vô lăng bị nặng do đó cần sớm kiểm tra.',
     image:
-        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Ftaplo%2F4.jpg?alt=media&token=d9faa08f-6e47-40df-953f-575900efb704',
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/600Questions%2F5%2F301.png?alt=media&token=7044ab97-a0fb-4d9e-9c62-a8acea13a915',
   ),
   TapLo(
     name: 'Đèn cảnh báo lỗi túi khí',
