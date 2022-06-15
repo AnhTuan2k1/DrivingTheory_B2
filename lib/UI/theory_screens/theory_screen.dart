@@ -11,100 +11,35 @@ class Theory extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          physics: BouncingScrollPhysics(),
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 20,
-                  vertical: 30,
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    TheoryItemCard(
-                      imageName: 'trafficsign.png',
-                      description: 'Các biển báo',
-                      onTap: () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => TrafficSignList(),
-                          ),
-                        );
-                      },
-                    ),
-                    TheoryItemCard(
-                      imageName: 'idea.png',
-                      description: 'Mẹo thi tốt',
-                      onTap: () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => TrickList(),
-                          ),
-                        );
-                      },
-                    )
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 20,
-                  vertical: 30,
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    TheoryItemCard(
-                      imageName: 'experiences.png',
-                      description: 'Đèn cảnh báo ô tô',
-                      onTap: () {
-                        Navigator.of(context).push(
-                          MaterialPageRoute(
-                            builder: (context) => TapLolist(),
-                          ),
-                        );
-                      },
-                    ),
-                    // TheoryItemCard(
-                    //   imageName: 'confirm.png',
-                    //   description: 'Các câu sai nhiều',
-                    //   onTap: () {},
-                    // ),
-                  ],
-                ),
-              ),
-              // Padding(
-              //   padding: const EdgeInsets.symmetric(
-              //     horizontal: 20,
-              //     vertical: 30,
-              //   ),
-              //   child: Row(
-              //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              //     crossAxisAlignment: CrossAxisAlignment.center,
-              //     children: [
-              //       TheoryItemCard(
-              //         imageName: 'random.png',
-              //         description: 'Đề thi ngẫu nhiên',
-              //         onTap: () {},
-              //       ),
-              //       TheoryItemCard(
-              //         imageName: 'flashcard.png',
-              //         description: 'Ôn tập câu hỏi',
-              //         onTap: () {},
-              //       )
-              //     ],
-              //   ),
-              // ),
-            ],
-          ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            TheoryItemCard(
+              imageName: 'trafficsign.png',
+              description: 'Các biển báo',
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const TrafficSignList(),
+                  ),
+                );
+              },
+            ),
+            TheoryItemCard(
+              imageName: 'experiences.png',
+              description: 'Đèn cảnh báo ô tô',
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => TapLolist(),
+                  ),
+                );
+              },
+            ),
+            const TrickList(),
+          ],
         ),
-      ),
+      )
     );
   }
 }

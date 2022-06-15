@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class TheoryItemCard extends StatelessWidget {
@@ -16,33 +17,27 @@ class TheoryItemCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: const Color.fromARGB(255, 98, 223, 113),
-      elevation: 0.3,
+      color: const Color.fromARGB(255, 194, 250, 200),
       child: InkWell(
         splashColor: const Color.fromARGB(255, 113, 235, 117),
         onTap: onTap,
-        child: SizedBox(
-          //height: 160,
-          height: 240,
-          width: 160,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Image.asset('assets/images/$imageName'),
-              Padding(
+        child: Row(
+          children: [
+            Image.asset('assets/images/$imageName', width: 200, height: 200, fit: BoxFit.fill,),
+            Expanded(
+              child: Padding(
                 padding: const EdgeInsets.only(top: 8.0),
                 child: Text(
                   description,
                   style: const TextStyle(
-                    fontSize: 18,
+                    fontSize: 20,
                     fontStyle: FontStyle.normal,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

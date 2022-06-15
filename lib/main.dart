@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         BottomNavyBarItem(
           icon: Icon(Icons.article_outlined),
-          title: Text('Luyện Tập'),
+          title: Text('Ôn Luyện'),
           activeColor: Colors.green,
           inactiveColor: Colors.grey,
           textAlign: TextAlign.center,

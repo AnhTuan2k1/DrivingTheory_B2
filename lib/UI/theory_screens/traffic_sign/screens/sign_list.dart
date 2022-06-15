@@ -1,3 +1,5 @@
+import 'package:driving_theory_b2/UI/dialog/theory.dart';
+import 'package:driving_theory_b2/UI/theory_screens/theory_screen.dart';
 import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaocam.dart';
 import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaochidan.dart';
 import 'package:driving_theory_b2/UI/theory_screens/traffic_sign/models/bienbaohieulenh.dart';
@@ -25,13 +27,23 @@ class SignListBienBaoCam extends StatelessWidget {
             name: listbienbaocam[index].name,
             image: listbienbaocam[index].image,
             onPress: () {
-              Navigator.of(context).push(MaterialPageRoute(
+              showDialog(
+                  context: context,
+                  builder: (context) {
+                    return TheoryDialog(
+                      name: listbienbaocam[index].name,
+                      image: listbienbaocam[index].image,
+                      description: listbienbaocam[index].description,
+                    );
+                  });
+
+             /* Navigator.of(context).push(MaterialPageRoute(
                 builder: (context) => SignItemDetail(
                   name: listbienbaocam[index].name,
                   image: listbienbaocam[index].image,
                   description: listbienbaocam[index].description,
                 ),
-              ));
+              ));*/
             },
           ),
         ),
@@ -56,13 +68,15 @@ class SignListBienBaoNguyHiem extends StatelessWidget {
             name: listbienbaonguyhiem[index].name,
             image: listbienbaonguyhiem[index].image,
             onPress: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => SignItemDetail(
-                  name: listbienbaonguyhiem[index].name,
-                  image: listbienbaonguyhiem[index].image,
-                  description: listbienbaonguyhiem[index].description,
-                ),
-              ));
+              showDialog(
+                  context: context,
+                  builder: (context) {
+                    return TheoryDialog(
+                      name: listbienbaonguyhiem[index].name,
+                      image: listbienbaonguyhiem[index].image,
+                      description: listbienbaonguyhiem[index].description,
+                    );
+                  });
             },
           ),
         ),
@@ -87,13 +101,15 @@ class SignListBienBaoHieuLenh extends StatelessWidget {
             name: listbienbaohieulenh[index].name,
             image: listbienbaohieulenh[index].image,
             onPress: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => SignItemDetail(
-                  name: listbienbaohieulenh[index].name,
-                  image: listbienbaohieulenh[index].image,
-                  description: listbienbaohieulenh[index].description,
-                ),
-              ));
+              showDialog(
+                  context: context,
+                  builder: (context) {
+                    return TheoryDialog(
+                      name: listbienbaohieulenh[index].name,
+                      image: listbienbaohieulenh[index].image,
+                      description: listbienbaohieulenh[index].description,
+                    );
+                  });
             },
           ),
         ),
@@ -118,13 +134,15 @@ class SignListBienBaoChiDan extends StatelessWidget {
             name: listbienbaochidan[index].name,
             image: listbienbaochidan[index].image,
             onPress: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => SignItemDetail(
-                  name: listbienbaochidan[index].name,
-                  image: listbienbaochidan[index].image,
-                  description: listbienbaochidan[index].description,
-                ),
-              ));
+              showDialog(
+                  context: context,
+                  builder: (context) {
+                    return TheoryDialog(
+                      name: listbienbaochidan[index].name,
+                      image: listbienbaochidan[index].image,
+                      description: listbienbaochidan[index].description,
+                    );
+                  });
             },
           ),
         ),
@@ -149,13 +167,15 @@ class SignListBienBaoPhu extends StatelessWidget {
             name: listbienbaophu[index].name,
             image: listbienbaophu[index].image,
             onPress: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => SignItemDetail(
-                  name: listbienbaophu[index].name,
-                  image: listbienbaophu[index].image,
-                  description: listbienbaophu[index].description,
-                ),
-              ));
+              showDialog(
+                  context: context,
+                  builder: (context) {
+                    return TheoryDialog(
+                      name: listbienbaophu[index].name,
+                      image: listbienbaophu[index].image,
+                      description: listbienbaophu[index].description,
+                    );
+                  });
             },
           ),
         ),
@@ -180,13 +200,15 @@ class SignListVachKeDuong extends StatelessWidget {
             name: listvachkeduong[index].name,
             image: listvachkeduong[index].image,
             onPress: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) => SignItemDetail(
-                  name: listvachkeduong[index].name,
-                  image: listvachkeduong[index].image,
-                  description: listvachkeduong[index].description,
-                ),
-              ));
+              showDialog(
+                  context: context,
+                  builder: (context) {
+                    return TheoryDialog(
+                      name: listvachkeduong[index].name,
+                      image: listvachkeduong[index].image,
+                      description: listvachkeduong[index].description,
+                    );
+                  });
             },
           ),
         ),

@@ -18,7 +18,7 @@ class TrafficSignList extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 20.0,
+                  vertical: 5.0,
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo cấm',
@@ -30,7 +30,7 @@ class TrafficSignList extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 20.0,
+                  vertical: 5.0,
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo nguy hiểm',
@@ -42,7 +42,7 @@ class TrafficSignList extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 20.0,
+                  vertical: 5.0,
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo hiệu lệnh',
@@ -54,7 +54,7 @@ class TrafficSignList extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 20.0,
+                  vertical: 5.0,
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo chỉ dẫn',
@@ -66,7 +66,7 @@ class TrafficSignList extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 20.0,
+                  vertical: 5.0,
                 ),
                 child: TrafficSignItem(
                   name: 'Biển báo phụ',
@@ -78,7 +78,7 @@ class TrafficSignList extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 20.0,
+                  vertical: 5.0,
                 ),
                 child: TrafficSignItem(
                   name: 'Vạch kẻ đường',

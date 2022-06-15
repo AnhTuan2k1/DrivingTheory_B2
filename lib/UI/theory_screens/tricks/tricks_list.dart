@@ -8,44 +8,67 @@ class TrickList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
+    return Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0),
-            child: TrickItem(
-              title: 'Mẹo lí thuyết',
-              imageName: 'book2.png',
-              onPress: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => TrickLiThuyet(),
+          Card(
+            color: const Color.fromARGB(255, 194, 250, 200),
+            child: InkWell(
+              splashColor: const Color.fromARGB(255, 113, 235, 117),
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => TrickLiThuyet(),
+                ),
+              ),
+              child: Row(
+                children: [
+                  Image.asset('assets/images/book2.png', width: 180, height: 180, fit: BoxFit.fill,),
+                  const Expanded(
+                    child: Padding(
+                      padding: EdgeInsets.only(top: 8.0),
+                      child: Text(
+                        'Mẹo lí thuyết',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontStyle: FontStyle.normal,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
                   ),
-                );
-              },
+                ],
+              ),
             ),
           ),
-          const SizedBox(
-            height: 30,
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 20.0),
-            child: TrickItem(
-              title: 'Mẹo Thực hành',
-              imageName: 'car2.png',
-              onPress: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => TrickThucHanh(),
+          Card(
+            color: const Color.fromARGB(255, 194, 250, 200),
+            child: InkWell(
+              splashColor: const Color.fromARGB(255, 113, 235, 117),
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => TrickThucHanh(),
+                ),
+              ),
+              child: Row(
+                children: [
+                  Image.asset('assets/images/car2.png', width: 180, height: 180, fit: BoxFit.fill,),
+                  const Expanded(
+                    child: Padding(
+                      padding: EdgeInsets.only(top: 8.0),
+                      child: Text(
+                        'Mẹo Thực hành',
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontStyle: FontStyle.normal,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
                   ),
-                );
-              },
+                ],
+              ),
             ),
           ),
         ],
-      ),
     );
   }
 }

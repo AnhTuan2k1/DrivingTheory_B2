@@ -16,7 +16,7 @@ class TapLoItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: const Color.fromARGB(255, 98, 223, 113),
+      color: const Color.fromARGB(255, 166, 253, 177),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(15.0),
       ),

@@ -13,43 +13,46 @@ class TrickLiThuyetItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(
-        vertical: 7.0,
-        horizontal: 16,
+        vertical: 3.0,
+        horizontal: 6,
       ),
       child: Card(
-        color: const Color.fromARGB(255, 98, 223, 113),
+        color: const Color.fromARGB(255, 178, 245, 186),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(
             8.0,
           ),
         ),
-        child: InkWell(
-          onTap: onPress,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.all(7.0),
-                  child: Container(
-                    height: 30,
-                    child: Center(
-                      child: Text(
-                        title,
-                        style: const TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.w500,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: InkWell(
+            onTap: onPress,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Padding(
+                    padding: const EdgeInsets.all(7.0),
+                    child: Container(
+                      height: 30,
+                      child: Center(
+                        child: Text(
+                          title,
+                          style: const TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.w500,
+                          ),
+                          overflow: TextOverflow.ellipsis,
+                          maxLines: 1,
+                          softWrap: false,
                         ),
-                        overflow: TextOverflow.ellipsis,
-                        maxLines: 1,
-                        softWrap: false,
                       ),
                     ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
