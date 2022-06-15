@@ -3,6 +3,8 @@ import 'package:driving_theory_b2/UI/theory_screens/taplo/screens/taplo_item.dar
 import 'package:driving_theory_b2/UI/theory_screens/taplo/screens/taplo_item_detail.dart';
 import 'package:flutter/material.dart';
 
+import '../../../dialog/theory.dart';
+
 class TapLolist extends StatelessWidget {
   const TapLolist({Key? key}) : super(key: key);
 
@@ -21,13 +23,15 @@ class TapLolist extends StatelessWidget {
                     name: listtaplo[index].name,
                     image: listtaplo[index].image,
                     onPress: () {
-                      Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => TapLoItemDetail(
-                          name: listtaplo[index].name,
-                          image: listtaplo[index].image,
-                          description: listtaplo[index].description,
-                        ),
-                      ));
+                      showDialog(
+                          context: context,
+                          builder: (context) {
+                            return TheoryDialog(
+                              name: listtaplo[index].name,
+                              image: listtaplo[index].image,
+                              description: listtaplo[index].description,
+                            );
+                          });
                     },
                   )),
         ),
