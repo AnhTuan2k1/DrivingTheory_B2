@@ -4667,7 +4667,7 @@
   {
     "id": 214,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi điều khiển xe mô tô tay ga xuống đường dốc dài, độ dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
     "correctAnswerId": 1,
     "answers": [
@@ -4802,7 +4802,7 @@
   {
     "id": 221,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi điều khiển ô tô xuống dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
     "correctAnswerId": 2,
     "answers": [
@@ -4920,7 +4920,7 @@
   {
     "id": 227,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi điều khiển xe qua đường sắt, người lái xe cần phải thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
     "correctAnswerId": 3,
     "answers": [
@@ -5000,7 +5000,7 @@
   {
     "id": 231,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Để giảm tốc độ khi ô tô đi xuống đường dốc dài, người lái xe phải thực hiện các thao tác nào để đảm bảo an toàn?",
     "correctAnswerId": 2,
     "answers": [
@@ -5243,7 +5243,7 @@
   {
     "id": 242,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi đã đỗ xe ô tô sát lề đường bên phải, người lái xe phải thực hiện các thao tác nào dưới đây khi mở cửa xuống xe để đảm bảo an toàn?",
     "correctAnswerId": 1,
     "answers": [
@@ -5302,7 +5302,7 @@
   {
     "id": 245,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi điều khiển xe ô tô có hộp số tự động đi vào đường trơn trượt, lầy lội, người lái xe phải xử lý như thế nào để đảm bảo an toàn trong các trường hợp dưới đây?",
     "correctAnswerId": 1,
     "answers": [
@@ -5365,7 +5365,7 @@
   {
     "id": 248,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi tầm nhìn bị hạn chế bởi sương mù hoặc mưa to, người lái xe phải thực hiện các thao tác nào?",
     "correctAnswerId": 2,
     "answers": [
@@ -5571,7 +5571,7 @@
   {
     "id": 258,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Người lái xe được dừng xe, đỗ xe trên làn dừng khẩn cấp của đường cao tốc trong trường hợp nào dưới đây?",
     "correctAnswerId": 1,
     "answers": [
@@ -5617,7 +5617,7 @@
   {
     "id": 260,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi điều khiển ô tô xuống đường dốc dài, độ dốc cao, người lái xe số tự động cần thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
     "correctAnswerId": 1,
     "answers": [
@@ -5634,7 +5634,7 @@
   {
     "id": 261,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi đi từ đường nhánh ra đường chính, người lái xe phải xử lý như thế nào là đúng quy tắc giao thông?",
     "correctAnswerId": 1,
     "answers": [
@@ -5655,7 +5655,7 @@
   {
     "id": 262,
     "type": 4,
-    "vital": false,
+    "vital": true,
     "content": "Khi đang lái xe mô tô và ô tô, nếu có nhu cầu sử dụng điện thoại để nhắn tin hoặc gọi điện, người lái xe phải thực hiện như thế nào trong các tình huống nêu dưới đây?",
     "correctAnswerId": 2,
     "answers": [
