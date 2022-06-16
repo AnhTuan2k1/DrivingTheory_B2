@@ -123,6 +123,23 @@ List<BienBaoNguyHiem> listbienbaonguyhiem = [
     description:
         'Biển báo giao thông này được đặt để báo trước nơi giao nhau có bố trí đảo an toàn ở giữa điểm giao, các loại xe qua điểm giao vòng trái, phải đi vòng xuyến qua đảo an toàn.',
   ),
+  BienBaoNguyHiem(
+    id: 'W.208',
+    name: 'Giao nhau với đường ưu tiên',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F208.jpg?alt=media&token=d9a95e0d-2668-44cc-85aa-2a11bbd0dfc8',
+    description:
+        'Biển báo giao thông này được đặt trên đường không ưu tiên để báo trước sắp đến nơi giao nhau với đường ưu tiên.',
+  ),
+  BienBaoNguyHiem(
+    id: 'W.209',
+    name: 'Giao nhau có tín hiệu đèn',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F209.jpg?alt=media&token=e786b42b-339f-4069-b8f6-608df7044803',
+    description:
+        'Biển báo giao thông này được đặt để báo trước nơi giao nhau có sự điều khiển giao thông bằng tín hiệu đèn (hệ thống 3 đèn bật theo chiều đứng) và trong trường hợp thiết bị tín hiệu đèn không được nhìn thấy rõ ràng và kịp thời.',
+  ),
+
   // BienBaoNguyHiem(
   //   id: id,
   //   name: name,

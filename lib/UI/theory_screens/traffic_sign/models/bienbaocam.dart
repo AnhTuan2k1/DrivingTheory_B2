@@ -116,4 +116,68 @@ List<BienBaoCam> listbienbaocam = [
     description:
         'Biển báo giao thông này được đặt để báo đường cấm tất cả các loại máy kéo, kể cả máy kéo bánh hơi và bánh xích đi qua.',
   ),
+  BienBaoCam(
+    id: 'P.110a',
+    name: 'Cấm đi xe đạp',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F110a.jpg?alt=media&token=0df4fbe1-ea52-4bc3-9c98-6ef30b7cfc63',
+    description:
+        'Biển báo giao thông này được đặt để báo đường cấm xe đạp đi qua.',
+  ),
+  BienBaoCam(
+    id: 'P.110b',
+    name: 'Cấm xe đạp thồ',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F110b.jpg?alt=media&token=8bad9420-f435-41c8-a42a-0d3becdd00cc',
+    description:
+        'Để báo đường cấm xe đạp thồ đi qua. Biển này không cấm người dắt loại xe này.',
+  ),
+  BienBaoCam(
+    id: 'P.111a',
+    name: 'Cấm xe gắn máy',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F111a.jpg?alt=media&token=dff27573-9009-446d-974a-97ae9ae6d2c8',
+    description:
+        'Biển báo giao thông này được đặt để báo đường cấm xe gắn máy đi qua. Biển không có giá trị đối với xe đạp.',
+  ),
+  BienBaoCam(
+    id: 'P.111b',
+    name: 'Cấm xe ba bánh loại có động cơ (xe lam)',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F111b.jpg?alt=media&token=e0246e77-d2e6-43a4-b5d0-86827881defa',
+    description:
+        'Để báo đường cấm xe ba bánh loại có động cơ như xe lam, xích lô máy, xe lôi máy v.v...',
+  ),
+  BienBaoCam(
+    id: 'P.111c',
+    name: 'Cấm xe ba bánh loại có động cơ (xe lôi máy)',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F111c.jpg?alt=media&token=592284ca-2968-4890-addc-72e8315d4d74',
+    description:
+        'Để báo đường cấm xe ba bánh loại có động cơ như xe lam, xích lô máy, xe lôi máy,...',
+  ),
+  BienBaoCam(
+    id: 'P.111d',
+    name: 'Cấm xe ba bánh loại không có động cơ',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F111d.jpg?alt=media&token=6f27ad50-9d76-4c17-a257-d967d139dbc8',
+    description:
+        'Để báo đường cấm xe ba bánh loại không có động cơ như xích lô, xe lôi, xe đạp v.v...',
+  ),
+  BienBaoCam(
+    id: 'P.112',
+    name: 'Cấm người đi bộ',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F112.jpg?alt=media&token=c95d5bc1-eb65-428e-9eaa-400b8aa6b43a',
+    description:
+        'Biển báo giao thông này được đặt để báo đường cấm đi bộ qua lại.',
+  ),
+  BienBaoCam(
+    id: 'P.113',
+    name: 'Cấm xe người kéo, đẩy',
+    image:
+        'https://firebasestorage.googleapis.com/v0/b/drivingtheory-b2.appspot.com/o/trafficsign%2Fbienbaocam%2F113.jpg?alt=media&token=8036ae26-fc38-4bbf-98bb-7802009ca53d',
+    description:
+        'Biển báo giao thông này được đặt để báo đường cấm xe người kéo, đẩy đi qua. Biển không có giá trị cấm những xe nôi của trẻ em và phương tiện chuyên dùng để đi lại của người tàn tật.',
+  ),
 ];
